@@ -55,13 +55,14 @@
   ],
   "stages": [
     {
+      "number": 1,
       "location": "NICE MOYEN PAYS > NICE",
       "distance": "156 KM",
       "type": "Flat",
       "date": "2020-08-29",
       "winner": { 
-        "rider": null,
-        "team": null
+        "rider": "SAGAN, PETER",
+        "team": "BORA"
       },
       "yellow": { 
         "rider": null,

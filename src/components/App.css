@@ -92,3 +92,7 @@ li.manager > .manager-teams > ul > li:hover {
   cursor: pointer;
   color: #0062cc;
 }
+
+ul.stage-results {
+  padding-left: 25px;
+}

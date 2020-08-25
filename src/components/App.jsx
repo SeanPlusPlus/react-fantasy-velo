@@ -1,7 +1,8 @@
 import React from 'react';
 import Nav from './Nav';
-import Teams from './Teams';
 import Managers from './Managers';
+import Teams from './Teams';
+import Stages from './Stages';
 import './App.css';
 
 function Main() {
@@ -13,6 +14,9 @@ function Main() {
         </div>
         <div className="column">
           <Teams />
+        </div>
+        <div className="column">
+          <Stages />
         </div>
       </div>
     </div>

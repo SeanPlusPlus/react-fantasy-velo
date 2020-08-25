@@ -9,7 +9,7 @@ function Teams() {
     setActiveTeam(team);
   }
   return (
-    <div className="Managers">
+    <div className="teams">
       <h3>
         Teams
       </h3>
