@@ -1,0 +1,94 @@
+.App{ 
+  color: #111;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  padding-left: 10px;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+ul { 
+  list-style: none;
+  padding-left: 0;
+}
+
+li.team, .manager {
+  color: #007bff;
+  font-size: 1.3rem;
+}
+
+li.team{
+  padding-bottom: 10px;
+}
+
+li.manager {
+  padding-bottom: 20px;
+}
+
+li > .team-name, .manager-name {
+  display: inline;
+}
+
+li > .manager-name.active {
+  color: #111;
+}
+
+li > .team-name.picked {
+  color: #111;
+  opacity: 0.5;
+}
+
+li > .team-name:not(.picked):hover {
+  cursor: pointer;
+  color: #0062cc;
+}
+
+li > .manager-name.active:before {
+  content: "❯ ";
+  display: inline-block;
+  width: 15px;
+}
+
+li > .manager-name:not(.active) {
+  padding-left: 15px;
+}
+
+li > .manager-name:not(.active):hover {
+  cursor: pointer;
+  color: #0062cc;
+}
+
+li.manager > .manager-teams > ul {
+  padding-top: 5px;
+  padding-left: 15px;
+  color: #111;
+  font-size: .9rem;
+}
+
+li.manager > .manager-teams > ul > li {
+  padding-left: 10px;
+  color: #111;
+}
+
+li.manager > .manager-teams > ul > li:before {
+  content: "• ";
+}
+
+li.manager > .manager-teams > ul > li:hover {
+  cursor: pointer;
+  color: #0062cc;
+}
