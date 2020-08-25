@@ -19,38 +19,73 @@
   "teams": [
     {
       "name": "Chargers",
-      "members": [],
+      "riders": [],
       "picked": false
     },
     {
       "name": "Eagles",
-      "members": [],
+      "riders": [],
       "picked": false
     },
     {
       "name": "Jets",
-      "members": [],
+      "riders": [],
       "picked": false
     },
     {
       "name": "Jaguars",
-      "members": [],
+      "riders": [],
       "picked": false
     },
     {
       "name": "Panthers",
-      "members": [],
+      "riders": [],
       "picked": false
     },
     {
       "name": "Patriots",
-      "members": [],
+      "riders": [],
       "picked": false
     },
     {
       "name": "Seahawks",
-      "members": [],
+      "riders": [],
       "picked": false
+    }
+  ],
+  "stages": [
+    {
+      "location": "NICE MOYEN PAYS > NICE",
+      "distance": "156 KM",
+      "type": "Flat",
+      "date": "2020-08-29",
+      "winner": { 
+        "rider": null,
+        "team": null
+      },
+      "yellow": { 
+        "rider": null,
+        "team": null
+      },
+      "green": { 
+        "rider": null,
+        "team": null
+      },
+      "polkadot": { 
+        "rider": null,
+        "team": null
+      },
+      "white": { 
+        "rider": null,
+        "team": null
+      },
+      "combativity": { 
+        "rider": null,
+        "team": null
+      },
+      "teams": { 
+        "team": null
+      }
     }
   ]
 }
