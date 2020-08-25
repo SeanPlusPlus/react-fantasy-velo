@@ -5,6 +5,9 @@ export const setActiveManager = (store, manager) => {
       {...item, active: false}
   ));
   store.setState({ managers });
+
+  // log global state
+  console.log(store.state);
 }
 
 export const setActiveTeam = (store, team) => {
@@ -17,8 +20,10 @@ export const setActiveTeam = (store, team) => {
   const managers = store.state.managers.map((item) => (
     item.active ? {...item, teams: [...item.teams, team]} : item
   ));
-  console.log(store.state.managers);
   store.setState({ teams, managers });
+  
+  // log global state
+  console.log(store.state);
 }
 
 export const setReleasedTeam = (store, team, manager) => {
@@ -31,4 +36,7 @@ export const setReleasedTeam = (store, team, manager) => {
       item
   ));
   store.setState({ teams, managers });
+
+  // log global state
+  console.log(store.state);
 }

@@ -1,0 +1,56 @@
+{
+  "managers": [
+    {
+      "name": "Washington",
+      "teams": [],
+      "active": true
+    },
+    {
+      "name": "Jefferson",
+      "teams": [],
+      "active": false
+    },
+    {
+      "name": "Lincoln",
+      "teams": [],
+      "active": false
+    }
+  ],
+  "teams": [
+    {
+      "name": "Chargers",
+      "members": [],
+      "picked": false
+    },
+    {
+      "name": "Eagles",
+      "members": [],
+      "picked": false
+    },
+    {
+      "name": "Jets",
+      "members": [],
+      "picked": false
+    },
+    {
+      "name": "Jaguars",
+      "members": [],
+      "picked": false
+    },
+    {
+      "name": "Panthers",
+      "members": [],
+      "picked": false
+    },
+    {
+      "name": "Patriots",
+      "members": [],
+      "picked": false
+    },
+    {
+      "name": "Seahawks",
+      "members": [],
+      "picked": false
+    }
+  ]
+}
