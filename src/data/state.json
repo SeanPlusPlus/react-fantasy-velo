@@ -1,16 +1,16 @@
 {
   "managers": [{
-      "name": "Dave",
-      "teams": [],
-      "active": false
-    },
-    {
       "name": "Kevin",
       "teams": [],
-      "active": false
+      "active": true 
     },
     {
       "name": "Sean",
+      "teams": [],
+      "active": false
+    },
+    {
+      "name": "Dave",
       "teams": [],
       "active": false
     }
