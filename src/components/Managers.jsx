@@ -37,7 +37,7 @@ function Managers() {
                     key={team.name}
                     onClick={() => handleTeamClick(team, manager)}
                   >
-                    {team.name} <code>14</code>
+                    {team.name} <code>{team.score}</code>
                   </li>
                 ))}
               </ul>

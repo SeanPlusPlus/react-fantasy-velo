@@ -111,38 +111,39 @@
     "distance": "156 KM",
     "type": "Flat",
     "date": "2020-08-29",
+    "completed": false,
     "winner": {
-      "rider": "SAGAN, Peter",
-      "team": "Bora-Hansgrohe",
+      "rider": "",
+      "team": "",
       "points": 3
     },
     "yellow": {
-      "rider": "SAGAN, Peter",
-      "team": "Bora-Hansgrohe",
+      "rider": "",
+      "team": "",
       "points": 2
     },
     "green": {
-      "rider": "EWAN, Caleb",
-      "team": "Lotto-Soudal",
+      "rider": "",
+      "team": "",
       "points": 1
     },
     "polkadot": {
-      "rider": "DEGENDT, Thomas",
-      "team": "Lotto-Soudal",
+      "rider": "",
+      "team": "",
       "points": 1
     },
     "white": {
-      "rider": "BERNAL, Egan",
-      "team": "Team Ineos",
+      "rider": "",
+      "team": "",
       "points": 1
     },
     "combativity": {
-      "rider": "HIGUITA, Sergio",
-      "team": "EF Pro Cycling",
+      "rider": "",
+      "team": "",
       "points": 1
     },
     "teams": {
-      "team": "Movistar Team",
+      "team": "",
       "points": 1
     }
   }]

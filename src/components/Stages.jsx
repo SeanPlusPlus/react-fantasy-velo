@@ -6,13 +6,16 @@ import stageHonors from '../utils/stageHonors';
 function Stages() {
   const [state] = useGlobal();
   const { stages } = state;
+  const completed = stages.filter((s) => (s.completed));
   return (
     <div className="stages">
-      <h3>
-        Stages
-      </h3>
+      {completed.length > 1 &&
+        <h3>
+          Stages
+        </h3>
+      }
       <ul>
-        {stages.map((stage) => (
+        {completed.map((stage) => (
           <li
             key={stage.number}
             className="stage"

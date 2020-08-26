@@ -1,7 +1,8 @@
 function getScore(manager, stages) {
+  const completed = stages.filter((s) => (s.completed));
   return {
     ...manager,
-    score: stages.length // TODO
+    score: completed.length || '', // TODO
   }
 }
 
