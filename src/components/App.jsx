@@ -3,7 +3,7 @@ import Nav from './Nav';
 import Managers from './Managers';
 import Teams from './Teams';
 import Stages from './Stages';
-import './App.css';
+import '../styles/App.css';
 
 function Main() {
   return (
