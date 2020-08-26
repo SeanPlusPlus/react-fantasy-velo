@@ -4,7 +4,7 @@ There are 3 managers, consisting of Dave, Kevin, and Sean
 
 The managers will snake draft - selecting 7 teams each (there are 22 total teams, thus one will not be selected)
 
-The draft order is:
+The draft order is: Kevin, Sean, Dave
 
 At the end of each stage, points will be awarded to a teams as follows:
 
