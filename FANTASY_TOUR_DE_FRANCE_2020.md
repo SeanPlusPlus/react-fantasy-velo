@@ -24,9 +24,9 @@ Bonus points will be awarded for:
 
 * 3 bonus points if this is the rider’s first individual stage win at The Tour de France
 * 2 bonus points if the rider wins the stage wearing yellow
-* 1 point if the rider wins the stage wearing green
-* 1 point if the rider wins the stage wearing polka dots
-* 1 point if the rider wins the stage wearing white
+* 1 bonus point if the rider wins the stage wearing green
+* 1 bonus point if the rider wins the stage wearing polka dots
+* 1 bonus point if the rider wins the stage wearing white
 
 At the end of the The Tour de France, points will be awarded as follows:
 
