@@ -18,7 +18,9 @@ export const setActiveTeam = (store, team) => {
     item.name === team.name ? {...item, picked: true} : item
   ));
   const managers = store.state.managers.map((item) => (
-    item.active ? {...item, teams: [...item.teams, team]} : item
+    item.active ?
+      {...item, teams: [...item.teams, {name: team.name}]} :
+      item
   ));
   store.setState({ teams, managers });
   
