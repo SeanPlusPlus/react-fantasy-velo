@@ -1,21 +1,41 @@
 {
-  "managers": [{
+  "managers": [
+    {
       "name": "Kevin",
-      "teams": [],
-      "active": true 
+      "teams": [
+        {
+          "name": "TEAM JUMBO - VISMA"
+        }
+      ],
+      "active": true
     },
     {
       "name": "Sean",
-      "teams": [],
+      "teams": [
+        {
+          "name": "INEOS GRENADIERS"
+        },
+        {
+          "name": "BORA - HANSGROHE"
+        }
+      ],
       "active": false
     },
     {
       "name": "Dave",
-      "teams": [],
+      "teams": [
+        {
+          "name": "GROUPAMA - FDJ"
+        },
+        {
+          "name": "TEAM ARKEA - SAMSIC"
+        }
+      ],
       "active": false
     }
   ],
-  "teams": [{
+  "teams": [
+    {
       "name": "AG2R LA MONDIALE",
       "picked": false
     },
@@ -33,7 +53,7 @@
     },
     {
       "name": "BORA - HANSGROHE",
-      "picked": false
+      "picked": true
     },
     {
       "name": "CCC TEAM",
@@ -53,11 +73,11 @@
     },
     {
       "name": "GROUPAMA - FDJ",
-      "picked": false
+      "picked": true
     },
     {
       "name": "INEOS GRENADIERS",
-      "picked": false
+      "picked": true
     },
     {
       "name": "ISRAEL START-UP NATION",
@@ -81,11 +101,11 @@
     },
     {
       "name": "TEAM ARKEA - SAMSIC",
-      "picked": false
+      "picked": true
     },
     {
       "name": "TEAM JUMBO - VISMA",
-      "picked": false
+      "picked": true
     },
     {
       "name": "TEAM SUNWEB",
@@ -103,48 +123,49 @@
       "name": "UAE TEAM EMIRATES",
       "picked": false
     }
-
   ],
-  "stages": [{
-    "number": 1,
-    "location": "NICE MOYEN PAYS > NICE",
-    "distance": "156 KM",
-    "type": "Flat",
-    "date": "2020-08-29",
-    "completed": false,
-    "winner": {
-      "rider": "",
-      "team": "",
-      "points": 3
-    },
-    "yellow": {
-      "rider": "",
-      "team": "",
-      "points": 2
-    },
-    "green": {
-      "rider": "",
-      "team": "",
-      "points": 1
-    },
-    "polkadot": {
-      "rider": "",
-      "team": "",
-      "points": 1
-    },
-    "white": {
-      "rider": "",
-      "team": "",
-      "points": 1
-    },
-    "combativity": {
-      "rider": "",
-      "team": "",
-      "points": 1
-    },
-    "teams": {
-      "team": "",
-      "points": 1
+  "stages": [
+    {
+      "number": 1,
+      "location": "NICE MOYEN PAYS > NICE",
+      "distance": "156 KM",
+      "type": "Flat",
+      "date": "2020-08-29",
+      "completed": false,
+      "winner": {
+        "rider": "",
+        "team": "",
+        "points": 3
+      },
+      "yellow": {
+        "rider": "",
+        "team": "",
+        "points": 2
+      },
+      "green": {
+        "rider": "",
+        "team": "",
+        "points": 1
+      },
+      "polkadot": {
+        "rider": "",
+        "team": "",
+        "points": 1
+      },
+      "white": {
+        "rider": "",
+        "team": "",
+        "points": 1
+      },
+      "combativity": {
+        "rider": "",
+        "team": "",
+        "points": 1
+      },
+      "teams": {
+        "team": "",
+        "points": 1
+      }
     }
-  }]
+  ]
 }
