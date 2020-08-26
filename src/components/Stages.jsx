@@ -1,4 +1,5 @@
 import React from 'react';
+import Honor from './Honor';
 import useGlobal from '../store';
 import trophy from '../images/trophy.png'
 import yellow from '../images/yellow.png'
@@ -8,16 +9,29 @@ import white from '../images/white.png'
 import combativity from '../images/combativity.png'
 import teams from '../images/teams.png'
 
-function Honor(props) {
-  return (
-    <li>
-      <img className="jersey" src={props.src} alt={props.alt} />
-      <span className="rider">
-        {props.winner.rider} [{props.winner.team}]
-      </span>
-    </li>
-  )
-}
+const honors = [
+  {
+    key: 'winner', src: trophy,
+  },
+  {
+    key: 'yellow', src: yellow,
+  },
+  {
+    key: 'green', src: green,
+  },
+  {
+    key: 'polkadot', src: polkadot,
+  },
+  {
+    key: 'white', src: white,
+  },
+  {
+    key: 'combativity', src: combativity,
+  },
+  {
+    key: 'teams', src: teams,
+  },
+];
 
 function Stages() {
   const [state] = useGlobal();
@@ -39,13 +53,9 @@ function Stages() {
               {stage.number}. {stage.location}, {stage.distance}, {stage.type}
             </div>
             <ul className="stage-results">
-              <Honor winner={stage.winner} src={trophy} alt="trophy" />
-              <Honor winner={stage.yellow} src={yellow} alt="yellow" />
-              <Honor winner={stage.green} src={green} alt="green" />
-              <Honor winner={stage.polkadot} src={polkadot} alt="polkadot" />
-              <Honor winner={stage.white} src={white} alt="white" />
-              <Honor winner={stage.combativity} src={combativity} alt="combativity" />
-              <Honor winner={stage.teams} src={teams} alt="teams" />
+              {honors.map((h) => (
+                <Honor key={h.key} winner={stage[h.key]} src={h.src} alt={h.key} />
+              ))}
             </ul>
           </li>
         ))}
