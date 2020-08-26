@@ -1,27 +1,50 @@
 {
-  "managers": [{
+  "managers": [
+    {
       "name": "Dave",
-      "teams": [],
-      "active": false 
+      "teams": [
+        {
+          "name": "Astana Pro Team"
+        },
+        {
+          "name": "Team Ineos"
+        }
+      ],
+      "active": false
     },
     {
       "name": "Kevin",
-      "teams": [],
+      "teams": [
+        {
+          "name": "Bora-Hansgrohe"
+        },
+        {
+          "name": "Movistar Team"
+        }
+      ],
       "active": false
     },
     {
       "name": "Sean",
-      "teams": [],
+      "teams": [
+        {
+          "name": "EF Pro Cycling"
+        },
+        {
+          "name": "Trek-Segafredo"
+        }
+      ],
       "active": false
     }
   ],
-  "teams": [{
+  "teams": [
+    {
       "name": "AG2R La Mondiale",
       "picked": false
     },
     {
       "name": "Astana Pro Team",
-      "picked": false
+      "picked": true
     },
     {
       "name": "Bahrain-McLaren",
@@ -29,7 +52,7 @@
     },
     {
       "name": "Bora-Hansgrohe",
-      "picked": false
+      "picked": true
     },
     {
       "name": "CCC Team",
@@ -45,7 +68,7 @@
     },
     {
       "name": "EF Pro Cycling",
-      "picked": false
+      "picked": true
     },
     {
       "name": "Groupama-FDJ",
@@ -65,7 +88,7 @@
     },
     {
       "name": "Movistar Team",
-      "picked": false
+      "picked": true
     },
     {
       "name": "NTT Pro Cycling",
@@ -73,7 +96,7 @@
     },
     {
       "name": "Team Ineos",
-      "picked": false
+      "picked": true
     },
     {
       "name": "Jumbo - Visma",
@@ -85,7 +108,7 @@
     },
     {
       "name": "Trek-Segafredo",
-      "picked": false
+      "picked": true
     },
     {
       "name": "UAE Team Emirates",
@@ -104,38 +127,40 @@
       "picked": false
     }
   ],
-  "stages": [{
-    "number": 1,
-    "location": "NICE MOYEN PAYS > NICE",
-    "distance": "156 KM",
-    "type": "Flat",
-    "date": "2020-08-29",
-    "winner": {
-      "rider": "SAGAN, Peter",
-      "team": "Bora-Hansgrohe"
-    },
-    "yellow": {
-      "rider": "SAGAN, Peter",
-      "team": "Bora-Hansgrohe"
-    },
-    "green": {
-      "rider": "EWAN, Caleb",
-      "team": "Lotto-Soudal"
-    },
-    "polkadot": {
-      "rider": "DEGENDT, Thomas",
-      "team": "Lotto-Soudal"
-    },
-    "white": {
-      "rider": "BERNAL, Egan",
-      "team": "Team Ineos"
-    },
-    "combativity": {
-      "rider": "HIGUITA, Sergio",
-      "team": "EF Pro Cycling"
-    },
-    "teams": {
-      "team": "Movistar Team"
+  "stages": [
+    {
+      "number": 1,
+      "location": "NICE MOYEN PAYS > NICE",
+      "distance": "156 KM",
+      "type": "Flat",
+      "date": "2020-08-29",
+      "winner": {
+        "rider": "SAGAN, Peter",
+        "team": "Bora-Hansgrohe"
+      },
+      "yellow": {
+        "rider": "SAGAN, Peter",
+        "team": "Bora-Hansgrohe"
+      },
+      "green": {
+        "rider": "EWAN, Caleb",
+        "team": "Lotto-Soudal"
+      },
+      "polkadot": {
+        "rider": "DEGENDT, Thomas",
+        "team": "Lotto-Soudal"
+      },
+      "white": {
+        "rider": "BERNAL, Egan",
+        "team": "Team Ineos"
+      },
+      "combativity": {
+        "rider": "HIGUITA, Sergio",
+        "team": "EF Pro Cycling"
+      },
+      "teams": {
+        "team": "Movistar Team"
+      }
     }
-  }]
+  ]
 }
