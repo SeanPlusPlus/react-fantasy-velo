@@ -1,173 +1,149 @@
 {
-  "managers": [
-    {
+  "managers": [{
       "name": "Dave",
-      "teams": [
-        {
-          "name": "Astana Pro Team"
-        },
-        {
-          "name": "Team Ineos"
-        }
-      ],
+      "teams": [],
       "active": false
     },
     {
       "name": "Kevin",
-      "teams": [
-        {
-          "name": "Bora-Hansgrohe"
-        },
-        {
-          "name": "Movistar Team"
-        }
-      ],
+      "teams": [],
       "active": false
     },
     {
       "name": "Sean",
-      "teams": [
-        {
-          "name": "EF Pro Cycling"
-        },
-        {
-          "name": "Trek-Segafredo"
-        }
-      ],
+      "teams": [],
       "active": false
     }
   ],
-  "teams": [
-    {
-      "name": "AG2R La Mondiale",
+  "teams": [{
+      "name": "AG2R LA MONDIALE",
       "picked": false
     },
     {
-      "name": "Astana Pro Team",
-      "picked": true
-    },
-    {
-      "name": "Bahrain-McLaren",
+      "name": "ASTANA PRO TEAM",
       "picked": false
     },
     {
-      "name": "Bora-Hansgrohe",
-      "picked": true
-    },
-    {
-      "name": "CCC Team",
+      "name": "B&B HOTELS - VITAL CONCEPT P / B KTM",
       "picked": false
     },
     {
-      "name": "Cofidis",
+      "name": "BAHRAIN - MCLAREN",
       "picked": false
     },
     {
-      "name": "Deceuninck - Quick-Step",
+      "name": "BORA - HANSGROHE",
       "picked": false
     },
     {
-      "name": "EF Pro Cycling",
-      "picked": true
-    },
-    {
-      "name": "Groupama-FDJ",
+      "name": "CCC TEAM",
       "picked": false
     },
     {
-      "name": "Israel Start-Up Nation",
+      "name": "COFIDIS",
       "picked": false
     },
     {
-      "name": "Lotto-Soudal",
+      "name": "DECEUNINCK - QUICK - STEP",
       "picked": false
     },
     {
-      "name": "Mitchelton-Scott",
+      "name": "EF PRO CYCLING",
       "picked": false
     },
     {
-      "name": "Movistar Team",
-      "picked": true
-    },
-    {
-      "name": "NTT Pro Cycling",
+      "name": "GROUPAMA - FDJ",
       "picked": false
     },
     {
-      "name": "Team Ineos",
-      "picked": true
-    },
-    {
-      "name": "Jumbo - Visma",
+      "name": "INEOS GRENADIERS",
       "picked": false
     },
     {
-      "name": "Team Sunweb",
+      "name": "ISRAEL START-UP NATION",
       "picked": false
     },
     {
-      "name": "Trek-Segafredo",
-      "picked": true
-    },
-    {
-      "name": "UAE Team Emirates",
+      "name": "LOTTO SOUDAL",
       "picked": false
     },
     {
-      "name": "Total Direct Energie",
+      "name": "MITCHELTON - SCOTT",
       "picked": false
     },
     {
-      "name": "Arkea-Samsic",
+      "name": "MOVISTAR TEAM",
       "picked": false
     },
     {
-      "name": "B&B Hotels - Vital Concept p/b KTM",
+      "name": "NTT PRO CYCLING TEAM",
+      "picked": false
+    },
+    {
+      "name": "TEAM ARKEA - SAMSIC",
+      "picked": false
+    },
+    {
+      "name": "TEAM JUMBO - VISMA",
+      "picked": false
+    },
+    {
+      "name": "TEAM SUNWEB",
+      "picked": false
+    },
+    {
+      "name": "TOTAL DIRECT ENERGIE",
+      "picked": false
+    },
+    {
+      "name": "TREK - SEGAFREDO",
+      "picked": false
+    },
+    {
+      "name": "UAE TEAM EMIRATES",
       "picked": false
     }
+
   ],
-  "stages": [
-    {
-      "number": 1,
-      "location": "NICE MOYEN PAYS > NICE",
-      "distance": "156 KM",
-      "type": "Flat",
-      "date": "2020-08-29",
-      "winner": {
-        "rider": "SAGAN, Peter",
-        "team": "Bora-Hansgrohe",
-        "points": 3
-      },
-      "yellow": {
-        "rider": "SAGAN, Peter",
-        "team": "Bora-Hansgrohe",
-        "points": 2
-      },
-      "green": {
-        "rider": "EWAN, Caleb",
-        "team": "Lotto-Soudal",
-        "points": 1
-      },
-      "polkadot": {
-        "rider": "DEGENDT, Thomas",
-        "team": "Lotto-Soudal",
-        "points": 1
-      },
-      "white": {
-        "rider": "BERNAL, Egan",
-        "team": "Team Ineos",
-        "points": 1
-      },
-      "combativity": {
-        "rider": "HIGUITA, Sergio",
-        "team": "EF Pro Cycling",
-        "points": 1
-      },
-      "teams": {
-        "team": "Movistar Team",
-        "points": 1
-      }
+  "stages": [{
+    "number": 1,
+    "location": "NICE MOYEN PAYS > NICE",
+    "distance": "156 KM",
+    "type": "Flat",
+    "date": "2020-08-29",
+    "winner": {
+      "rider": "SAGAN, Peter",
+      "team": "Bora-Hansgrohe",
+      "points": 3
+    },
+    "yellow": {
+      "rider": "SAGAN, Peter",
+      "team": "Bora-Hansgrohe",
+      "points": 2
+    },
+    "green": {
+      "rider": "EWAN, Caleb",
+      "team": "Lotto-Soudal",
+      "points": 1
+    },
+    "polkadot": {
+      "rider": "DEGENDT, Thomas",
+      "team": "Lotto-Soudal",
+      "points": 1
+    },
+    "white": {
+      "rider": "BERNAL, Egan",
+      "team": "Team Ineos",
+      "points": 1
+    },
+    "combativity": {
+      "rider": "HIGUITA, Sergio",
+      "team": "EF Pro Cycling",
+      "points": 1
+    },
+    "teams": {
+      "team": "Movistar Team",
+      "points": 1
     }
-  ]
+  }]
 }
