@@ -1,9 +1,11 @@
 import React from 'react';
 import useGlobal from '../store';
+import getScore from '../utils/getScore';
 
 function Managers() {
   const [state, actions] = useGlobal();
-  const { managers } = state;
+  const { stages } = state;
+  const managers = state.managers.map((m) => getScore(m, stages));
   const { setActiveManager, setReleasedTeam } = actions;
   function handleManagerClick(manager) {
     setActiveManager(manager);
@@ -26,7 +28,7 @@ function Managers() {
               onClick={() => handleManagerClick(manager)}
               className={'manager-name' + (manager.active ? ' active' : '')}
             >
-              {manager.name}
+              {manager.name} <code>{manager.score}</code>
             </div>
             <div className="manager-teams">
               <ul>
@@ -35,7 +37,7 @@ function Managers() {
                     key={team.name}
                     onClick={() => handleTeamClick(team, manager)}
                   >
-                    {team.name}
+                    {team.name} <code>14</code>
                   </li>
                 ))}
               </ul>

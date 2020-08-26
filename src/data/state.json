@@ -136,30 +136,37 @@
       "date": "2020-08-29",
       "winner": {
         "rider": "SAGAN, Peter",
-        "team": "Bora-Hansgrohe"
+        "team": "Bora-Hansgrohe",
+        "points": 3
       },
       "yellow": {
         "rider": "SAGAN, Peter",
-        "team": "Bora-Hansgrohe"
+        "team": "Bora-Hansgrohe",
+        "points": 2
       },
       "green": {
         "rider": "EWAN, Caleb",
-        "team": "Lotto-Soudal"
+        "team": "Lotto-Soudal",
+        "points": 1
       },
       "polkadot": {
         "rider": "DEGENDT, Thomas",
-        "team": "Lotto-Soudal"
+        "team": "Lotto-Soudal",
+        "points": 1
       },
       "white": {
         "rider": "BERNAL, Egan",
-        "team": "Team Ineos"
+        "team": "Team Ineos",
+        "points": 1
       },
       "combativity": {
         "rider": "HIGUITA, Sergio",
-        "team": "EF Pro Cycling"
+        "team": "EF Pro Cycling",
+        "points": 1
       },
       "teams": {
-        "team": "Movistar Team"
+        "team": "Movistar Team",
+        "points": 1
       }
     }
   ]
