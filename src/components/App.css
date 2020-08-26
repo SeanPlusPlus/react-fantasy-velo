@@ -97,3 +97,13 @@ li.manager > .manager-teams > ul > li:hover {
 ul.stage-results {
   padding-left: 25px;
 }
+
+ul.stage-results > li > img {
+  height: 17px;
+  padding-right: 5px;
+}
+
+ul.stage-results > li {
+  display: flex;
+  align-items: center;
+}
