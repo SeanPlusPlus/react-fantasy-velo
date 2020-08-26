@@ -32,7 +32,8 @@ li.team, .manager {
 }
 
 li.team{
-  padding-bottom: 10px;
+  padding-bottom: 3px;
+  padding-left: 5px;
 }
 
 li.manager {

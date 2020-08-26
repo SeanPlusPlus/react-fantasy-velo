@@ -1,92 +1,141 @@
 {
-  "managers": [
-    {
-      "name": "Washington",
+  "managers": [{
+      "name": "Dave",
       "teams": [],
-      "active": true
+      "active": false 
     },
     {
-      "name": "Jefferson",
+      "name": "Kevin",
       "teams": [],
       "active": false
     },
     {
-      "name": "Lincoln",
+      "name": "Sean",
       "teams": [],
       "active": false
     }
   ],
-  "teams": [
-    {
-      "name": "Chargers",
-      "riders": [],
+  "teams": [{
+      "name": "AG2R La Mondiale",
       "picked": false
     },
     {
-      "name": "Eagles",
-      "riders": [],
+      "name": "Astana Pro Team",
       "picked": false
     },
     {
-      "name": "Jets",
-      "riders": [],
+      "name": "Bahrain-McLaren",
       "picked": false
     },
     {
-      "name": "Jaguars",
-      "riders": [],
+      "name": "Bora-Hansgrohe",
       "picked": false
     },
     {
-      "name": "Panthers",
-      "riders": [],
+      "name": "CCC Team",
       "picked": false
     },
     {
-      "name": "Patriots",
-      "riders": [],
+      "name": "Cofidis",
       "picked": false
     },
     {
-      "name": "Seahawks",
-      "riders": [],
+      "name": "Deceuninck - Quick-Step",
+      "picked": false
+    },
+    {
+      "name": "EF Pro Cycling",
+      "picked": false
+    },
+    {
+      "name": "Groupama-FDJ",
+      "picked": false
+    },
+    {
+      "name": "Israel Start-Up Nation",
+      "picked": false
+    },
+    {
+      "name": "Lotto-Soudal",
+      "picked": false
+    },
+    {
+      "name": "Mitchelton-Scott",
+      "picked": false
+    },
+    {
+      "name": "Movistar Team",
+      "picked": false
+    },
+    {
+      "name": "NTT Pro Cycling",
+      "picked": false
+    },
+    {
+      "name": "Team Ineos",
+      "picked": false
+    },
+    {
+      "name": "Jumbo - Visma",
+      "picked": false
+    },
+    {
+      "name": "Team Sunweb",
+      "picked": false
+    },
+    {
+      "name": "Trek-Segafredo",
+      "picked": false
+    },
+    {
+      "name": "UAE Team Emirates",
+      "picked": false
+    },
+    {
+      "name": "Total Direct Energie",
+      "picked": false
+    },
+    {
+      "name": "Arkea-Samsic",
+      "picked": false
+    },
+    {
+      "name": "B&B Hotels - Vital Concept p/b KTM",
       "picked": false
     }
   ],
-  "stages": [
-    {
-      "number": 1,
-      "location": "NICE MOYEN PAYS > NICE",
-      "distance": "156 KM",
-      "type": "Flat",
-      "date": "2020-08-29",
-      "winner": { 
-        "rider": "SAGAN, PETER",
-        "team": "BORA"
-      },
-      "yellow": { 
-        "rider": null,
-        "team": null
-      },
-      "green": { 
-        "rider": null,
-        "team": null
-      },
-      "polkadot": { 
-        "rider": null,
-        "team": null
-      },
-      "white": { 
-        "rider": null,
-        "team": null
-      },
-      "combativity": { 
-        "rider": null,
-        "team": null
-      },
-      "teams": { 
-        "team": null
-      }
+  "stages": [{
+    "number": 1,
+    "location": "NICE MOYEN PAYS > NICE",
+    "distance": "156 KM",
+    "type": "Flat",
+    "date": "2020-08-29",
+    "winner": {
+      "rider": "SAGAN, PETER",
+      "team": "BORA"
+    },
+    "yellow": {
+      "rider": null,
+      "team": null
+    },
+    "green": {
+      "rider": null,
+      "team": null
+    },
+    "polkadot": {
+      "rider": null,
+      "team": null
+    },
+    "white": {
+      "rider": null,
+      "team": null
+    },
+    "combativity": {
+      "rider": null,
+      "team": null
+    },
+    "teams": {
+      "team": null
     }
-  ]
+  }]
 }

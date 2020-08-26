@@ -18,7 +18,7 @@ function Stages() {
             <div
               className="stage-location"
             >
-              {stage.number}. {stage.location}
+              {stage.number}. {stage.location}, {stage.distance}, {stage.type}
             </div>
             <ul className="stage-results">
               <li>Winner: {stage.winner.rider} [{stage.winner.team}]</li>
