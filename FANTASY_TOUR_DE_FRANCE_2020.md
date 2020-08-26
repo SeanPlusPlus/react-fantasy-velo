@@ -8,7 +8,7 @@ The managers will snake draft - selecting 7 teams each
 
 The draft order is: Kevin, Sean, Dave
 
-At the end of each stage, points will be awarded to a teams as follows:
+At the end of each stage, points will be awarded to a team as follows:
 
 * 3 points for a stage win
 * 2 points for a rider wearing yellow
