@@ -1,3 +1,4 @@
+import orderBy from 'lodash/orderBy';
 import stageHonors from '../utils/stageHonors';
 
 function getTeamScore(manager, scores) {
@@ -34,13 +35,15 @@ function getScore(manager, stages, teams) {
     });
   });
 
-  const teamWithScores = getTeamScore(manager, scores);
-  const managerScore = getManagerScore(teamWithScores);
+  const teamsWithScores = orderBy(
+    getTeamScore(manager, scores), 'score', 'desc'
+  );
+  const managerScore = getManagerScore(teamsWithScores);
   
   return {
     ...manager,
     score: managerScore,
-    teams: teamWithScores,
+    teams: teamsWithScores,
   }
 }
 
