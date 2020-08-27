@@ -9,11 +9,9 @@ function Stages() {
   const completed = stages.filter((s) => (s.completed));
   return (
     <div className="stages">
-      {completed.length > 0 &&
-        <h3>
-          Stages
-        </h3>
-      }
+      <h3>
+        Stages
+      </h3>
       <ul>
         {completed.map((stage) => (
           <li
