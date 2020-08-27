@@ -149,39 +149,39 @@
       "distance": "156 KM",
       "type": "Flat",
       "date": "2020-08-29",
-      "completed": false,
+      "completed": true,
       "winner": {
-        "rider": "",
-        "team": "",
+        "rider": "PETER SAGAN",
+        "team": "BORA - HANSGROHE",
         "points": 3
       },
       "yellow": {
-        "rider": "",
-        "team": "",
+        "rider": "PETER SAGAN",
+        "team": "BORA - HANSGROHE",
         "points": 2
       },
       "green": {
-        "rider": "",
-        "team": "",
+        "rider": "SAM BENNETT",
+        "team": "DECEUNINCK - QUICK - STEP",
         "points": 1
       },
       "polkadot": {
-        "rider": "",
-        "team": "",
+        "rider": "MIKEL LANDA",
+        "team": "BAHRAIN - MCLAREN",
         "points": 1
       },
       "white": {
-        "rider": "",
-        "team": "",
+        "rider": "EGAN BERNAL",
+        "team": "INEOS GRENADIERS",
         "points": 1
       },
       "combativity": {
-        "rider": "",
-        "team": "",
+        "rider": "ALEJANDRO VALVERDE",
+        "team": "MOVISTAR TEAM",
         "points": 1
       },
       "teams": {
-        "team": "",
+        "team": "BORA - HANSGROHE",
         "points": 1
       }
     }
