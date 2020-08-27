@@ -1,8 +1,23 @@
 import stageHonors from '../utils/stageHonors';
 
+function getTeamScore(manager, scores) {
+  const teams = manager.teams.map((team) => ({
+    ...team,
+    score: scores[team.name],
+  }));
+  return teams;
+}
+
+function getManagerScore(teams) {
+  const total = teams.reduce((a, b) => ({ score: a.score + b.score }));
+  const { score } = total;
+  return score;
+}
+
 function getScore(manager, stages, teams) {
   const completed = stages.filter((s) => (s.completed));
   const scores = {};
+
   teams.forEach((t) => {
     scores[t.name] = 0;
   });
@@ -13,13 +28,15 @@ function getScore(manager, stages, teams) {
       const team = stage[honor.key].team;
       scores[team] += points;
     });
-  })
+  });
 
-  console.log('scores', scores);
+  const teamWithScores = getTeamScore(manager, scores);
+  const managerScore = getManagerScore(teamWithScores);
   
   return {
     ...manager,
-    score: completed.length || '', // TODO
+    score: managerScore,
+    teams: teamWithScores,
   }
 }
 
