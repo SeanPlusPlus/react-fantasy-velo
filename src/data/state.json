@@ -5,6 +5,12 @@
       "teams": [
         {
           "name": "TEAM JUMBO - VISMA"
+        },
+        {
+          "name": "EF PRO CYCLING"
+        },
+        {
+          "name": "DECEUNINCK - QUICK - STEP"
         }
       ],
       "active": true
@@ -17,6 +23,12 @@
         },
         {
           "name": "BORA - HANSGROHE"
+        },
+        {
+          "name": "LOTTO SOUDAL"
+        },
+        {
+          "name": "UAE TEAM EMIRATES"
         }
       ],
       "active": false
@@ -29,6 +41,12 @@
         },
         {
           "name": "TEAM ARKEA - SAMSIC"
+        },
+        {
+          "name": "BAHRAIN - MCLAREN"
+        },
+        {
+          "name": "MOVISTAR TEAM"
         }
       ],
       "active": false
@@ -49,7 +67,7 @@
     },
     {
       "name": "BAHRAIN - MCLAREN",
-      "picked": false
+      "picked": true
     },
     {
       "name": "BORA - HANSGROHE",
@@ -65,11 +83,11 @@
     },
     {
       "name": "DECEUNINCK - QUICK - STEP",
-      "picked": false
+      "picked": true
     },
     {
       "name": "EF PRO CYCLING",
-      "picked": false
+      "picked": true
     },
     {
       "name": "GROUPAMA - FDJ",
@@ -85,7 +103,7 @@
     },
     {
       "name": "LOTTO SOUDAL",
-      "picked": false
+      "picked": true
     },
     {
       "name": "MITCHELTON - SCOTT",
@@ -93,7 +111,7 @@
     },
     {
       "name": "MOVISTAR TEAM",
-      "picked": false
+      "picked": true
     },
     {
       "name": "NTT PRO CYCLING TEAM",
@@ -121,7 +139,7 @@
     },
     {
       "name": "UAE TEAM EMIRATES",
-      "picked": false
+      "picked": true
     }
   ],
   "stages": [

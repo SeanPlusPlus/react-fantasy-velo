@@ -9,7 +9,7 @@ function Stages() {
   const completed = stages.filter((s) => (s.completed));
   return (
     <div className="stages">
-      {completed.length > 1 &&
+      {completed.length > 0 &&
         <h3>
           Stages
         </h3>
