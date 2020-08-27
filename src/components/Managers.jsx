@@ -1,11 +1,14 @@
 import React from 'react';
+import orderBy from 'lodash/orderBy';
 import useGlobal from '../store';
 import getScore from '../utils/getScore';
 
 function Managers() {
   const [state, actions] = useGlobal();
   const { stages, teams } = state;
-  const managers = state.managers.map((m) => getScore(m, stages, teams));
+  const managers = orderBy(
+    state.managers.map((m) => getScore(m, stages, teams)), 'score', 'desc'
+  );
   const { setActiveManager, setReleasedTeam } = actions;
   function handleManagerClick(manager) {
     setActiveManager(manager);
