@@ -137,11 +137,13 @@
       "picked": true
     }
   ],
-  "stages": [{
+  "stages": [
+    {
       "number": 1,
-      "location": "",
-      "distance": "",
-      "type": "",
+      "type": "FLAT",
+      "date": "Sat 08/29/2020",
+      "location": "NICE MOYEN PAYS > NICE",
+      "distance": "156 KM",
       "completed": false,
       "winner": {
         "rider": "",
@@ -180,9 +182,10 @@
     },
     {
       "number": 2,
-      "location": "",
-      "distance": "",
-      "type": "",
+      "type": "MOUNTAIN",
+      "date": "Sun 08/30/2020",
+      "location": "NICE HAUT PAYS > NICE",
+      "distance": "186 KM",
       "completed": false,
       "winner": {
         "rider": "",
@@ -221,9 +224,10 @@
     },
     {
       "number": 3,
-      "location": "",
-      "distance": "",
-      "type": "",
+      "type": "FLAT",
+      "date": "Mon 08/31/2020",
+      "location": "NICE > SISTERON",
+      "distance": "198 KM",
       "completed": false,
       "winner": {
         "rider": "",
@@ -262,9 +266,10 @@
     },
     {
       "number": 4,
-      "location": "",
-      "distance": "",
-      "type": "",
+      "type": "HILLY",
+      "date": "Tue 09/01/2020",
+      "location": "SISTERON > ORCIÈRES-MERLETTE",
+      "distance": "160.5 KM",
       "completed": false,
       "winner": {
         "rider": "",
@@ -303,9 +308,10 @@
     },
     {
       "number": 5,
-      "location": "",
-      "distance": "",
-      "type": "",
+      "type": "FLAT",
+      "date": "Wed 09/02/2020",
+      "location": "GAP > PRIVAS",
+      "distance": "183 KM",
       "completed": false,
       "winner": {
         "rider": "",
@@ -344,9 +350,10 @@
     },
     {
       "number": 6,
-      "location": "",
-      "distance": "",
-      "type": "",
+      "type": "HILLY",
+      "date": "Thu 09/03/2020",
+      "location": "LE TEIL > MONT AIGOUAL",
+      "distance": "191 KM",
       "completed": false,
       "winner": {
         "rider": "",
@@ -385,9 +392,10 @@
     },
     {
       "number": 7,
-      "location": "",
-      "distance": "",
-      "type": "",
+      "type": "FLAT",
+      "date": "Fri 09/04/2020",
+      "location": "MILLAU > LAVAUR",
+      "distance": "168 KM",
       "completed": false,
       "winner": {
         "rider": "",
@@ -426,9 +434,10 @@
     },
     {
       "number": 8,
-      "location": "",
-      "distance": "",
-      "type": "",
+      "type": "MOUNTAIN",
+      "date": "Sat 09/05/2020",
+      "location": "CAZÈRES-SUR-GARONNE > LOUDENVIELLE",
+      "distance": "141 KM",
       "completed": false,
       "winner": {
         "rider": "",
@@ -467,9 +476,10 @@
     },
     {
       "number": 9,
-      "location": "",
-      "distance": "",
-      "type": "",
+      "type": "MOUNTAIN",
+      "date": "Sun 09/06/2020",
+      "location": "PAU > LARUNS",
+      "distance": "153 KM",
       "completed": false,
       "winner": {
         "rider": "",
@@ -508,9 +518,10 @@
     },
     {
       "number": 10,
-      "location": "",
-      "distance": "",
-      "type": "",
+      "type": "FLAT",
+      "date": "Tue 09/08/2020",
+      "location": "ÎLE D'OLÉRON LE CHÂTEAU-D'OLÉRON > ÎLE DE RÉ SAINT-MARTIN-DE-RÉ",
+      "distance": "168.5 KM",
       "completed": false,
       "winner": {
         "rider": "",
@@ -549,9 +560,10 @@
     },
     {
       "number": 11,
-      "location": "",
-      "distance": "",
-      "type": "",
+      "type": "FLAT",
+      "date": "Wed 09/09/2020",
+      "location": "CHÂTELAILLON-PLAGE > POITIERS",
+      "distance": "167.5 KM",
       "completed": false,
       "winner": {
         "rider": "",
@@ -590,9 +602,10 @@
     },
     {
       "number": 12,
-      "location": "",
-      "distance": "",
-      "type": "",
+      "type": "HILLY",
+      "date": "Thu 09/10/2020",
+      "location": "CHAUVIGNY > SARRAN CORRÈZE",
+      "distance": "218 KM",
       "completed": false,
       "winner": {
         "rider": "",
@@ -631,9 +644,10 @@
     },
     {
       "number": 13,
-      "location": "",
-      "distance": "",
-      "type": "",
+      "type": "MOUNTAIN",
+      "date": "Fri 09/11/2020",
+      "location": "CHÂTEL-GUYON > PUY MARY CANTAL",
+      "distance": "191.5 KM",
       "completed": false,
       "winner": {
         "rider": "",
@@ -672,9 +686,10 @@
     },
     {
       "number": 14,
-      "location": "",
-      "distance": "",
-      "type": "",
+      "type": "FLAT",
+      "date": "Sat 09/12/2020",
+      "location": "CLERMONT-FERRAND > LYON",
+      "distance": "194 KM",
       "completed": false,
       "winner": {
         "rider": "",
@@ -713,9 +728,10 @@
     },
     {
       "number": 15,
-      "location": "",
-      "distance": "",
-      "type": "",
+      "type": "MOUNTAIN",
+      "date": "Sun 09/13/2020",
+      "location": "LYON > GRAND COLOMBIER",
+      "distance": "174.5 KM",
       "completed": false,
       "winner": {
         "rider": "",
@@ -754,9 +770,10 @@
     },
     {
       "number": 16,
-      "location": "",
-      "distance": "",
-      "type": "",
+      "type": "MOUNTAIN",
+      "date": "Tue 09/15/2020",
+      "location": "LA TOUR-DU-PIN > VILLARD-DE-LANS",
+      "distance": "164 KM",
       "completed": false,
       "winner": {
         "rider": "",
@@ -795,9 +812,10 @@
     },
     {
       "number": 17,
-      "location": "",
-      "distance": "",
-      "type": "",
+      "type": "MOUNTAIN",
+      "date": "Wed 09/16/2020",
+      "location": "GRENOBLE > MÉRIBEL COL DE LA LOZE",
+      "distance": "170 KM",
       "completed": false,
       "winner": {
         "rider": "",
@@ -836,9 +854,10 @@
     },
     {
       "number": 18,
-      "location": "",
-      "distance": "",
-      "type": "",
+      "type": "MOUNTAIN",
+      "date": "Thu 09/17/2020",
+      "location": "MÉRIBEL > LA ROCHE-SUR-FORON",
+      "distance": "175 KM",
       "completed": false,
       "winner": {
         "rider": "",
@@ -877,9 +896,10 @@
     },
     {
       "number": 19,
-      "location": "",
-      "distance": "",
-      "type": "",
+      "type": "FLAT",
+      "date": "Fri 09/18/2020",
+      "location": "BOURG-EN-BRESSE > CHAMPAGNOLE",
+      "distance": "166.5 KM",
       "completed": false,
       "winner": {
         "rider": "",
@@ -918,9 +938,10 @@
     },
     {
       "number": 20,
-      "location": "",
-      "distance": "",
-      "type": "",
+      "type": "INDIVIDUAL TIME-TRIAL",
+      "date": "Sat 09/19/2020",
+      "location": "LURE > LA PLANCHE DES BELLES FILLES",
+      "distance": "36.2 KM",
       "completed": false,
       "winner": {
         "rider": "",
@@ -959,9 +980,10 @@
     },
     {
       "number": 21,
-      "location": "",
-      "distance": "",
-      "type": "",
+      "type": "FLAT",
+      "date": "Sun 09/20/2020",
+      "location": "MANTES-LA-JOLIE > PARIS CHAMPS-ÉLYSÉES",
+      "distance": "122 KM",
       "completed": false,
       "winner": {
         "rider": "",
