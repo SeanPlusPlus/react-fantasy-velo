@@ -151,37 +151,37 @@
       "date": "2020-08-29",
       "completed": false,
       "winner": {
-        "rider": "PETER SAGAN",
-        "team": "BORA - HANSGROHE",
+        "rider": "",
+        "team": "",
         "points": 3
       },
       "yellow": {
-        "rider": "PETER SAGAN",
-        "team": "BORA - HANSGROHE",
+        "rider": "",
+        "team": "",
         "points": 2
       },
       "green": {
-        "rider": "SAM BENNETT",
-        "team": "DECEUNINCK - QUICK - STEP",
+        "rider": "",
+        "team": "",
         "points": 1
       },
       "polkadot": {
-        "rider": "MIKEL LANDA",
-        "team": "BAHRAIN - MCLAREN",
+        "rider": "",
+        "team": "",
         "points": 1
       },
       "white": {
-        "rider": "EGAN BERNAL",
-        "team": "INEOS GRENADIERS",
+        "rider": "",
+        "team": "",
         "points": 1
       },
       "combativity": {
-        "rider": "ALEJANDRO VALVERDE",
-        "team": "MOVISTAR TEAM",
+        "rider": "",
+        "team": "",
         "points": 1
       },
       "teams": {
-        "team": "BORA - HANSGROHE",
+        "team": "",
         "points": 1
       }
     }
