@@ -4,8 +4,8 @@ import getScore from '../utils/getScore';
 
 function Managers() {
   const [state, actions] = useGlobal();
-  const { stages } = state;
-  const managers = state.managers.map((m) => getScore(m, stages));
+  const { stages, teams } = state;
+  const managers = state.managers.map((m) => getScore(m, stages, teams));
   const { setActiveManager, setReleasedTeam } = actions;
   function handleManagerClick(manager) {
     setActiveManager(manager);
