@@ -98,8 +98,13 @@ ul.stage-results {
 }
 
 ul.stage-results > li > img {
-  height: 17px;
+  height: 16px;
   padding-right: 5px;
+}
+
+ul.stage-results > li > .rider {
+  font-size: .8rem;
+  padding-bottom: 2px;
 }
 
 ul.stage-results > li {
