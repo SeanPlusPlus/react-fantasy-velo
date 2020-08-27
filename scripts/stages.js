@@ -32,35 +32,35 @@ stages.map((stage) => ({
   winner: {
     rider: '',
     team: '',
-    points: '',
+    points: 3,
   },
   yellow: {
     rider: '',
     team: '',
-    points: '',
+    points: 2,
   },
   green: {
     rider: '',
     team: '',
-    points: '',
+    points: 1,
   },
   polkadot: {
     rider: '',
     team: '',
-    points: '',
+    points: 1,
   },
   white: {
     rider: '',
     team: '',
-    points: '',
+    points: 1,
   },
   combativity: {
     rider: '',
     team: '',
-    points: '',
+    points: 1,
   },
   teams: {
     team: '',
-    points: '',
+    points: 1,
   },
 }));

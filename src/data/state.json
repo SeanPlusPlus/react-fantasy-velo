@@ -137,8 +137,7 @@
       "picked": true
     }
   ],
-  "stages": [
-    {
+  "stages": [{
       "number": 1,
       "type": "FLAT",
       "date": "Sat 08/29/2020",
@@ -148,36 +147,36 @@
       "winner": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 3
       },
       "yellow": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 2
       },
       "green": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "polkadot": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "white": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "combativity": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "teams": {
         "team": "",
-        "points": ""
+        "points": 1
       }
     },
     {
@@ -190,36 +189,36 @@
       "winner": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 3
       },
       "yellow": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 2
       },
       "green": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "polkadot": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "white": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "combativity": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "teams": {
         "team": "",
-        "points": ""
+        "points": 1
       }
     },
     {
@@ -232,36 +231,36 @@
       "winner": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 3
       },
       "yellow": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 2
       },
       "green": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "polkadot": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "white": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "combativity": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "teams": {
         "team": "",
-        "points": ""
+        "points": 1
       }
     },
     {
@@ -274,36 +273,36 @@
       "winner": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 3
       },
       "yellow": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 2
       },
       "green": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "polkadot": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "white": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "combativity": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "teams": {
         "team": "",
-        "points": ""
+        "points": 1
       }
     },
     {
@@ -316,36 +315,36 @@
       "winner": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 3
       },
       "yellow": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 2
       },
       "green": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "polkadot": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "white": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "combativity": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "teams": {
         "team": "",
-        "points": ""
+        "points": 1
       }
     },
     {
@@ -358,36 +357,36 @@
       "winner": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 3
       },
       "yellow": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 2
       },
       "green": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "polkadot": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "white": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "combativity": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "teams": {
         "team": "",
-        "points": ""
+        "points": 1
       }
     },
     {
@@ -400,36 +399,36 @@
       "winner": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 3
       },
       "yellow": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 2
       },
       "green": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "polkadot": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "white": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "combativity": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "teams": {
         "team": "",
-        "points": ""
+        "points": 1
       }
     },
     {
@@ -442,36 +441,36 @@
       "winner": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 3
       },
       "yellow": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 2
       },
       "green": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "polkadot": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "white": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "combativity": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "teams": {
         "team": "",
-        "points": ""
+        "points": 1
       }
     },
     {
@@ -484,36 +483,36 @@
       "winner": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 3
       },
       "yellow": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 2
       },
       "green": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "polkadot": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "white": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "combativity": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "teams": {
         "team": "",
-        "points": ""
+        "points": 1
       }
     },
     {
@@ -526,36 +525,36 @@
       "winner": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 3
       },
       "yellow": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 2
       },
       "green": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "polkadot": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "white": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "combativity": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "teams": {
         "team": "",
-        "points": ""
+        "points": 1
       }
     },
     {
@@ -568,36 +567,36 @@
       "winner": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 3
       },
       "yellow": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 2
       },
       "green": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "polkadot": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "white": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "combativity": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "teams": {
         "team": "",
-        "points": ""
+        "points": 1
       }
     },
     {
@@ -610,36 +609,36 @@
       "winner": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 3
       },
       "yellow": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 2
       },
       "green": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "polkadot": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "white": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "combativity": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "teams": {
         "team": "",
-        "points": ""
+        "points": 1
       }
     },
     {
@@ -652,36 +651,36 @@
       "winner": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 3
       },
       "yellow": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 2
       },
       "green": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "polkadot": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "white": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "combativity": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "teams": {
         "team": "",
-        "points": ""
+        "points": 1
       }
     },
     {
@@ -694,36 +693,36 @@
       "winner": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 3
       },
       "yellow": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 2
       },
       "green": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "polkadot": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "white": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "combativity": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "teams": {
         "team": "",
-        "points": ""
+        "points": 1
       }
     },
     {
@@ -736,36 +735,36 @@
       "winner": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 3
       },
       "yellow": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 2
       },
       "green": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "polkadot": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "white": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "combativity": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "teams": {
         "team": "",
-        "points": ""
+        "points": 1
       }
     },
     {
@@ -778,36 +777,36 @@
       "winner": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 3
       },
       "yellow": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 2
       },
       "green": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "polkadot": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "white": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "combativity": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "teams": {
         "team": "",
-        "points": ""
+        "points": 1
       }
     },
     {
@@ -820,36 +819,36 @@
       "winner": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 3
       },
       "yellow": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 2
       },
       "green": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "polkadot": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "white": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "combativity": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "teams": {
         "team": "",
-        "points": ""
+        "points": 1
       }
     },
     {
@@ -862,36 +861,36 @@
       "winner": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 3
       },
       "yellow": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 2
       },
       "green": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "polkadot": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "white": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "combativity": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "teams": {
         "team": "",
-        "points": ""
+        "points": 1
       }
     },
     {
@@ -904,36 +903,36 @@
       "winner": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 3
       },
       "yellow": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 2
       },
       "green": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "polkadot": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "white": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "combativity": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "teams": {
         "team": "",
-        "points": ""
+        "points": 1
       }
     },
     {
@@ -946,36 +945,36 @@
       "winner": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 3
       },
       "yellow": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 2
       },
       "green": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "polkadot": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "white": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "combativity": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "teams": {
         "team": "",
-        "points": ""
+        "points": 1
       }
     },
     {
@@ -988,36 +987,36 @@
       "winner": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 3
       },
       "yellow": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 2
       },
       "green": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "polkadot": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "white": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "combativity": {
         "rider": "",
         "team": "",
-        "points": ""
+        "points": 1
       },
       "teams": {
         "team": "",
-        "points": ""
+        "points": 1
       }
     }
   ]
