@@ -16,6 +16,10 @@ function getManagerScore(teams) {
 
 function getScore(manager, stages, teams) {
   const completed = stages.filter((s) => (s.completed));
+  if (completed.length === 0) {
+    return manager;
+  }
+
   const scores = {};
 
   teams.forEach((t) => {
