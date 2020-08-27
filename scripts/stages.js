@@ -1,9 +1,33 @@
-const total = 21;
-Array(total).fill().map((_, i) => ({
-  number: i + 1, 
-  location: '',
-  distance: '',
-  type: '',
+const stages = [
+  [1,'FLAT','Sat 08/29/2020','NICE MOYEN PAYS > NICE','156 KM',],
+  [2,'MOUNTAIN','Sun 08/30/2020','NICE HAUT PAYS > NICE','186 KM',],
+  [3,'FLAT','Mon 08/31/2020','NICE > SISTERON','198 KM',],
+  [4,'HILLY','Tue 09/01/2020','SISTERON > ORCIÈRES-MERLETTE','160.5 KM',],
+  [5,'FLAT','Wed 09/02/2020','GAP > PRIVAS','183 KM',],
+  [6,'HILLY','Thu 09/03/2020','LE TEIL > MONT AIGOUAL','191 KM',],
+  [7,'FLAT','Fri 09/04/2020','MILLAU > LAVAUR','168 KM',],
+  [8,'MOUNTAIN','Sat 09/05/2020','CAZÈRES-SUR-GARONNE > LOUDENVIELLE','141 KM',],
+  [9,'MOUNTAIN','Sun 09/06/2020','PAU > LARUNS','153 KM',],
+  [10,'FLAT','Tue 09/08/2020','ÎLE D\'OLÉRON LE CHÂTEAU-D\'OLÉRON > ÎLE DE RÉ SAINT-MARTIN-DE-RÉ','168.5 KM',],
+  [11,'FLAT','Wed 09/09/2020','CHÂTELAILLON-PLAGE > POITIERS','167.5 KM',],
+  [12,'HILLY','Thu 09/10/2020','CHAUVIGNY > SARRAN CORRÈZE','218 KM',],
+  [13,'MOUNTAIN','Fri 09/11/2020','CHÂTEL-GUYON > PUY MARY CANTAL','191.5 KM',],
+  [14,'FLAT','Sat 09/12/2020','CLERMONT-FERRAND > LYON','194 KM',],
+  [15,'MOUNTAIN','Sun 09/13/2020','LYON > GRAND COLOMBIER','174.5 KM',],
+  [16,'MOUNTAIN','Tue 09/15/2020','LA TOUR-DU-PIN > VILLARD-DE-LANS','164 KM',],
+  [17,'MOUNTAIN','Wed 09/16/2020','GRENOBLE > MÉRIBEL COL DE LA LOZE','170 KM',],
+  [18,'MOUNTAIN','Thu 09/17/2020','MÉRIBEL > LA ROCHE-SUR-FORON','175 KM',],
+  [19,'FLAT','Fri 09/18/2020','BOURG-EN-BRESSE > CHAMPAGNOLE','166.5 KM',],
+  [20,'INDIVIDUAL TIME-TRIAL','Sat 09/19/2020','LURE > LA PLANCHE DES BELLES FILLES','36.2 KM',],
+  [21,'FLAT','Sun 09/20/2020','MANTES-LA-JOLIE > PARIS CHAMPS-ÉLYSÉES','122 KM',],
+]
+
+stages.map((stage) => ({
+  number: stage[0], 
+  type: stage[1],
+  date: stage[2],
+  location: stage[3],
+  distance: stage[4],
   completed: false,
   winner: {
     rider: '',
