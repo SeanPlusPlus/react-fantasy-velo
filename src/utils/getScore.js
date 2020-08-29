@@ -34,8 +34,12 @@ function getScore(manager, stages, teams) {
       const { key } = honor
       const points = stage[key].points;
       const team = stage[key].team;
-      if (!_find(teams, {name: team})) {
-        console.log(key, stage[key]);
+      const exists = _find(teams, {name: team});
+
+      // catches typo in team name
+      if (team && !exists) { 
+        const e = `Team not found: ${team}, ${key}`;
+        throw new Error(e);
       }
 
       scores[team] += points;
