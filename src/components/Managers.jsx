@@ -1,12 +1,12 @@
 import React from 'react';
-import orderBy from 'lodash/orderBy';
+import _orderBy from 'lodash/orderBy';
 import useGlobal from '../store';
 import getScore from '../utils/getScore';
 
 function Managers() {
   const [state, actions] = useGlobal();
   const { stages, teams } = state;
-  const managers = orderBy(
+  const managers = _orderBy(
     state.managers.map((m) => getScore(m, stages, teams)), 'score', 'desc'
   );
   const active = stages.filter((s) => (s.completed)).length > 0;

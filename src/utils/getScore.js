@@ -1,5 +1,7 @@
-import orderBy from 'lodash/orderBy';
+import _orderBy from 'lodash/orderBy';
+import _find from 'lodash/find';
 import stageHonors from '../utils/stageHonors';
+
 
 function getTeamScore(manager, scores) {
   const teams = manager.teams.map((team) => ({
@@ -29,15 +31,21 @@ function getScore(manager, stages, teams) {
 
   completed.forEach((stage) => {
     stageHonors.forEach((honor) => {
-      const points = stage[honor.key].points;
-      const team = stage[honor.key].team;
+      const { key } = honor
+      const points = stage[key].points;
+      const team = stage[key].team;
+      if (!_find(teams, {name: team})) {
+        console.log(key, stage[key]);
+      }
+
       scores[team] += points;
     });
   });
 
-  const teamsWithScores = orderBy(
+  const teamsWithScores = _orderBy(
     getTeamScore(manager, scores), 'score', 'desc'
   );
+  
   const managerScore = getManagerScore(teamsWithScores);
   
   return {
