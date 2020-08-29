@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Honor(props) {
-  if (!props.winner.rider) {
+  if (!props.winner.points) {
     return <></>
   }
   return (

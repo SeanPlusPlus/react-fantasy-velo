@@ -1,7 +1,9 @@
 {
-  "managers": [{
+  "managers": [
+    {
       "name": "Kevin",
-      "teams": [{
+      "teams": [
+        {
           "name": "TEAM JUMBO - VISMA"
         },
         {
@@ -9,13 +11,26 @@
         },
         {
           "name": "DECEUNINCK - QUICK - STEP"
+        },
+        {
+          "name": "MITCHELTON - SCOTT"
+        },
+        {
+          "name": "ASTANA PRO TEAM"
+        },
+        {
+          "name": "TEAM SUNWEB"
+        },
+        {
+          "name": "TOTAL DIRECT ENERGIE"
         }
       ],
-      "active": true
+      "active": false
     },
     {
       "name": "Sean",
-      "teams": [{
+      "teams": [
+        {
           "name": "INEOS GRENADIERS"
         },
         {
@@ -26,13 +41,23 @@
         },
         {
           "name": "UAE TEAM EMIRATES"
+        },
+        {
+          "name": "AG2R LA MONDIALE"
+        },
+        {
+          "name": "ISRAEL START-UP NATION"
+        },
+        {
+          "name": "CCC TEAM"
         }
       ],
       "active": false
     },
     {
       "name": "Dave",
-      "teams": [{
+      "teams": [
+        {
           "name": "GROUPAMA - FDJ"
         },
         {
@@ -43,22 +68,32 @@
         },
         {
           "name": "MOVISTAR TEAM"
+        },
+        {
+          "name": "TREK - SEGAFREDO"
+        },
+        {
+          "name": "COFIDIS"
+        },
+        {
+          "name": "B&B HOTELS - VITAL CONCEPT"
         }
       ],
       "active": false
     }
   ],
-  "teams": [{
+  "teams": [
+    {
       "name": "AG2R LA MONDIALE",
-      "picked": false
+      "picked": true
     },
     {
       "name": "ASTANA PRO TEAM",
-      "picked": false
+      "picked": true
     },
     {
       "name": "B&B HOTELS - VITAL CONCEPT",
-      "picked": false
+      "picked": true
     },
     {
       "name": "BAHRAIN - MCLAREN",
@@ -70,11 +105,11 @@
     },
     {
       "name": "CCC TEAM",
-      "picked": false
+      "picked": true
     },
     {
       "name": "COFIDIS",
-      "picked": false
+      "picked": true
     },
     {
       "name": "DECEUNINCK - QUICK - STEP",
@@ -94,7 +129,7 @@
     },
     {
       "name": "ISRAEL START-UP NATION",
-      "picked": false
+      "picked": true
     },
     {
       "name": "LOTTO SOUDAL",
@@ -102,7 +137,7 @@
     },
     {
       "name": "MITCHELTON - SCOTT",
-      "picked": false
+      "picked": true
     },
     {
       "name": "MOVISTAR TEAM",
@@ -122,60 +157,61 @@
     },
     {
       "name": "TEAM SUNWEB",
-      "picked": false
+      "picked": true
     },
     {
       "name": "TOTAL DIRECT ENERGIE",
-      "picked": false
+      "picked": true
     },
     {
       "name": "TREK - SEGAFREDO",
-      "picked": false
+      "picked": true
     },
     {
       "name": "UAE TEAM EMIRATES",
       "picked": true
     }
   ],
-  "stages": [{
+  "stages": [
+    {
       "number": 1,
       "type": "FLAT",
       "date": "Sat 08/29/2020",
       "location": "NICE MOYEN PAYS > NICE",
       "distance": "156 KM",
-      "completed": false,
+      "completed": true,
       "winner": {
-        "rider": "",
-        "team": "",
+        "rider": "A. KRISTOFF",
+        "team": "UAE TEAM EMIRATES",
         "points": 3
       },
       "yellow": {
-        "rider": "",
-        "team": "",
+        "rider": "A. KRISTOFF",
+        "team": "UAE TEAM EMIRATES",
         "points": 2
       },
       "green": {
-        "rider": "",
-        "team": "",
+        "rider": "P. SAGAN",
+        "team": "BORA - HANSGROHE",
         "points": 1
       },
       "polkadot": {
-        "rider": "",
-        "team": "",
+        "rider": "F. GRELLIER",
+        "team": "TOTAL DIRECT ENERGIE",
         "points": 1
       },
       "white": {
-        "rider": "",
-        "team": "",
+        "rider": "M. PEDERSON",
+        "team": "TREK - SEGAFREDO",
         "points": 1
       },
       "combativity": {
-        "rider": "",
-        "team": "",
+        "rider": "M. SCHAR",
+        "team": "CCC TEAM",
         "points": 1
       },
       "teams": {
-        "team": "",
+        "team": "TREK - SEGAFREDO",
         "points": 1
       }
     },
