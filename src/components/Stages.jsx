@@ -1,4 +1,5 @@
 import React from 'react';
+import _reverse from 'lodash/reverse';
 import useGlobal from '../store';
 import Honor from './Honor';
 import stageHonors from '../utils/stageHonors';
@@ -6,7 +7,7 @@ import stageHonors from '../utils/stageHonors';
 function Stages() {
   const [state] = useGlobal();
   const { stages } = state;
-  const completed = stages.filter((s) => (s.completed));
+  const completed = _reverse(stages.filter((s) => (s.completed)));
   return (
     <div className="stages">
       <h3>
