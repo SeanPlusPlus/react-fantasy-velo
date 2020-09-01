@@ -263,39 +263,39 @@
       "date": "Mon 08/31/2020",
       "location": "NICE > SISTERON",
       "distance": "198 KM",
-      "completed": false,
+      "completed": true,
       "winner": {
-        "rider": "",
-        "team": "",
+        "rider": "C. EWAN",
+        "team": "LOTTO SOUDAL",
         "points": 3
       },
       "yellow": {
-        "rider": "",
-        "team": "",
+        "rider": "J. ALAPHILIPPE",
+        "team": "DECEUNINCK - QUICK - STEP",
         "points": 2
       },
       "green": {
-        "rider": "",
-        "team": "",
+        "rider": "P. SAGAN",
+        "team": "BORA - HANSGROHE",
         "points": 1
       },
       "polkadot": {
-        "rider": "",
-        "team": "",
+        "rider": "B. COSNEFROY",
+        "team": "AG2R LA MONDIALE",
         "points": 1
       },
       "white": {
-        "rider": "",
-        "team": "",
+        "rider": "M. HIRSCHI",
+        "team": "TEAM SUNWEB",
         "points": 1
       },
       "combativity": {
-        "rider": "",
-        "team": "",
+        "rider": "J. COUSIN",
+        "team": "TOTAL DIRECT ENERGIE",
         "points": 1
       },
       "teams": {
-        "team": "",
+        "team": "TREK - SEGAFREDO",
         "points": 1
       }
     },
@@ -305,39 +305,39 @@
       "date": "Tue 09/01/2020",
       "location": "SISTERON > ORCIÈRES-MERLETTE",
       "distance": "160.5 KM",
-      "completed": false,
+      "completed": true,
       "winner": {
-        "rider": "",
-        "team": "",
+        "rider": "P. ROGLIC",
+        "team": "TEAM JUMBO - VISMA",
         "points": 3
       },
       "yellow": {
-        "rider": "",
-        "team": "",
+        "rider": "J. ALAPHILIPPE",
+        "team": "DECEUNINCK - QUICK - STEP",
         "points": 2
       },
       "green": {
-        "rider": "",
-        "team": "",
+        "rider": "P. SAGAN",
+        "team": "BORA - HANSGROHE",
         "points": 1
       },
       "polkadot": {
-        "rider": "",
-        "team": "",
+        "rider": "B. COSNEFROY",
+        "team": "AG2R LA MONDIALE",
         "points": 1
       },
       "white": {
-        "rider": "",
-        "team": "",
+        "rider": "T. POGACAR",
+        "team": "UAE TEAM EMIRATES",
         "points": 1
       },
       "combativity": {
-        "rider": "",
-        "team": "",
+        "rider": "K. NEILANDS",
+        "team": "ISRAEL START-UP NATION",
         "points": 1
       },
       "teams": {
-        "team": "",
+        "team": "EF PRO CYCLING",
         "points": 1
       }
     },
