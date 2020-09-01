@@ -26,7 +26,7 @@ function Stages() {
             </div>
             <ul className="stage-results">
               {stageHonors.map((h) => (
-                <Honor key={h.key} winner={stage[h.key]} src={h.src} alt={h.key} />
+                <Honor key={h.key} winner={stage[h.key]} src={h.src} alt={h.key} points={h.points} />
               ))}
             </ul>
           </li>

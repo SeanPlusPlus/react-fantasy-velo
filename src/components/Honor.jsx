@@ -1,14 +1,15 @@
 import React from 'react';
 
 function Honor(props) {
-  if (!props.winner.team) {
+  const { winner: { team, rider, points }, src, alt } = props;
+  if (!team) {
     return <></>
   }
   return (
     <li>
-      <img className="jersey" src={props.src} alt={props.alt} />
+      <img className="jersey" src={src} alt={alt} />
       <span className="rider">
-        {props.winner.rider} [{props.winner.team}]
+        {rider} [{team}] <code>{points}</code>
       </span>
     </li>
   )
