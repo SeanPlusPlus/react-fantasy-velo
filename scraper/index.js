@@ -11,7 +11,8 @@ async function getData(items) {
 const handleData = (document) => {
   document.forEach((document) => {
     const $ = cheerio.load(document);
-    console.log($);
+    const rows = $('.rankingTables__row')
+    console.log(rows.length);
   });
 }
 
