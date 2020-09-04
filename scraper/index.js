@@ -8,8 +8,8 @@ async function getData(items) {
   return data
 }
 
-const handleData = (document) => {
-  document.forEach((document) => {
+const handleData = (documents) => {
+  documents.forEach((document) => {
     const $ = cheerio.load(document);
     const rows = $('.rankingTables__row');
     const riders = [];
