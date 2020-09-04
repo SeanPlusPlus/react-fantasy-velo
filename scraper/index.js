@@ -28,7 +28,6 @@ const handleData = (document) => {
             }
           });
         }
-
         const classNameTime = 'is-alignCenter time';
         if ($(el).attr('class') === classNameTime) {
           if (idx === 6) {
@@ -36,7 +35,6 @@ const handleData = (document) => {
             riders[riders.length - 1].time = time;
           }
         }
-
       });
     });
 
