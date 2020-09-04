@@ -40,8 +40,8 @@ const handleData = (document) => {
   });
 }
 
-const resources = ['rankings']
-const base = 'https://www.letour.fr/en'
+const resources = ['a7d677cfcfd6a3b14e0c66f610c43fa6/none']
+const base = 'https://www.letour.fr/en/ajax/ranking/7/itg'
 const urls = resources.map((r) => (`${base}/${r}`))
 
 getData(urls).then(handleData)
