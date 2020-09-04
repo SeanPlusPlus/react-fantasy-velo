@@ -41,12 +41,13 @@ const handleData = (document) => {
     });
 
     const target = 10;
-    Array(target).fill().map((_, i) => {
-      console.log(i);
-
+    const data = Array(target).fill().map((_, i) => {
+      return {
+        rank: (i + 1),
+        ...riders[i],
+      };
     });
-    console.log(riders);
-    console.log(riders.length);
+    console.log(data);
   });
 }
 
