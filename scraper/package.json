@@ -5,6 +5,7 @@
   "author": "Sean Stephenson <Sean.Michael.Stephenson@gmailer.com>",
   "license": "MIT",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "node-fetch": "^3.0.0-beta.2"
   }
 }
