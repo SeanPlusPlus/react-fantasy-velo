@@ -16,27 +16,32 @@ const handleData = (document) => {
     rows.each((i, td) => {
       const tds = $(td).children();
       tds.each((idx, el) => {
-        const className = 'rankingTables__row__profile runner';
-        if ($(el).attr('class') === className) {
+        const classNameRider = 'rankingTables__row__profile runner';
+        if ($(el).attr('class') === classNameRider) {
           const children = $(el).children();
           children.each((index, child) => {
             const element = $(child)
             const href = element.attr('href');
             if (href) {
-              const text = element.text().trim();
-              riders.push(text);
-              console.log(text);
+              const name = element.text().trim();
+              riders.push({ name });
             }
           });
         }
+
+        const classNameTime = 'is-alignCenter time';
+        if ($(el).attr('class') === classNameTime) {
+          if (idx === 6) {
+            const time = $(el).text().trim();
+            riders[riders.length - 1].time = time;
+          }
+        }
+
       });
     });
 
+    console.log(riders);
     console.log(riders.length);
-    console.log(riders[0]);
-    console.log(riders[1]);
-    console.log(riders[2]);
-    console.log(riders[3]);
   });
 }
 
