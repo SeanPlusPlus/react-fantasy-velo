@@ -112,3 +112,7 @@ ul.stage-results > li {
   display: flex;
   align-items: center;
 }
+
+.compact {
+  font-size: .85rem;
+}

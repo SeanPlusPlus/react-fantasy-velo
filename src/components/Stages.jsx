@@ -6,8 +6,14 @@ import stageHonors from '../utils/stageHonors';
 
 function Stages() {
   const [state] = useGlobal();
-  const { stages } = state;
+  const { stages, managers } = state;
   const completed = _reverse(stages.filter((s) => (s.completed)));
+  const teams = {};
+  managers.forEach((manager) => {
+    manager.teams.forEach((team) => {
+      teams[team.name] = manager.name;
+    });
+  });
   return (
     <div className="stages">
       <h3>
@@ -26,7 +32,14 @@ function Stages() {
             </div>
             <ul className="stage-results">
               {stageHonors.map((h) => (
-                <Honor key={h.key} winner={stage[h.key]} src={h.src} alt={h.key} points={h.points} />
+                <Honor
+                  key={h.key}
+                  winner={stage[h.key]}
+                  src={h.src}
+                  alt={h.key}
+                  points={h.points}
+                  teams={teams}
+                />
               ))}
             </ul>
           </li>
