@@ -32,7 +32,7 @@ const handleData = (document) => {
         const classNameTime = 'is-alignCenter time';
         if ($(el).attr('class') === classNameTime) {
           if (idx === 6) {
-            const time = $(el).text().trim();
+            const time = $(el).text().trim().replace(/['"]+/g, '');
             riders[riders.length - 1].time = time;
           }
         }
