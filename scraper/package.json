@@ -1,0 +1,7 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sean Stephenson <Sean.Michael.Stephenson@gmailer.com>",
+  "license": "MIT"
+}
