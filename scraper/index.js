@@ -12,12 +12,31 @@ const handleData = (document) => {
   document.forEach((document) => {
     const $ = cheerio.load(document);
     const rows = $('.rankingTables__row');
+    const riders = [];
     rows.each((i, td) => {
       const tds = $(td).children();
-      tds.each((idx, a) => {
-        console.log($(a).text().trim());
+      tds.each((idx, el) => {
+        const className = 'rankingTables__row__profile runner';
+        if ($(el).attr('class') === className) {
+          const children = $(el).children();
+          children.each((index, child) => {
+            const element = $(child)
+            const href = element.attr('href');
+            if (href) {
+              const text = element.text().trim();
+              riders.push(text);
+              console.log(text);
+            }
+          });
+        }
       });
     });
+
+    console.log(riders.length);
+    console.log(riders[0]);
+    console.log(riders[1]);
+    console.log(riders[2]);
+    console.log(riders[3]);
   });
 }
 
