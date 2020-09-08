@@ -81,5 +81,8 @@ fetch(letour)
         console.log(stageHonors);
       }
       return s;
-    })
+    });
+
+    const json = JSON.stringify(data);
+    fs.writeFileSync(path, json);
   });
