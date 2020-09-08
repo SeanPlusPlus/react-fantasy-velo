@@ -37,7 +37,6 @@ const handleData = (documents) => {
         }
       });
     });
-
     const target = 10;
     const data = Array(target).fill().map((_, i) => {
       return {
