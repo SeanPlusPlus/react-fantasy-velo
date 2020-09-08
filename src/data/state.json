@@ -473,39 +473,39 @@
       "date": "Sat 09/05/2020",
       "location": "CAZÈRES-SUR-GARONNE > LOUDENVIELLE",
       "distance": "141 KM",
-      "completed": false,
+      "completed": true,
       "winner": {
-        "rider": "",
-        "team": "",
-        "points": 3
+        "rider": "N. PETERS",
+        "team": "AG2R LA MONDIALE",
+        "points": 6
       },
       "yellow": {
-        "rider": "",
-        "team": "",
+        "rider": "A. YATES",
+        "team": "MITCHELTON - SCOTT",
         "points": 2
       },
       "green": {
-        "rider": "",
-        "team": "",
+        "rider": "P. SAGAN",
+        "team": "BORA - HANSGROHE",
         "points": 1
       },
       "polkadot": {
-        "rider": "",
-        "team": "",
+        "rider": "B. COSNEFROY",
+        "team": "AG2R LA MONDIALE",
         "points": 1
       },
       "white": {
-        "rider": "",
-        "team": "",
+        "rider": "E. BERNAL",
+        "team": "INEOS GRENADIERS",
         "points": 1
       },
       "combativity": {
-        "rider": "",
-        "team": "",
+        "rider": "N. PETERS",
+        "team": "AG2R LA MONDIALE",
         "points": 1
       },
       "teams": {
-        "team": "",
+        "team": "EF PRO CYCLING",
         "points": 1
       }
     },
@@ -515,39 +515,39 @@
       "date": "Sun 09/06/2020",
       "location": "PAU > LARUNS",
       "distance": "153 KM",
-      "completed": false,
+      "completed": true,
       "winner": {
-        "rider": "",
-        "team": "",
-        "points": 3
+        "rider": "T. POGACAR",
+        "team": "UAE TEAM EMIRATES",
+        "points": 6
       },
       "yellow": {
-        "rider": "",
-        "team": "",
+        "rider": "P. ROGRLIC",
+        "team": "TEAM JUMBO - VISMA",
         "points": 2
       },
       "green": {
-        "rider": "",
-        "team": "",
+        "rider": "P. SAGAN",
+        "team": "BORA - HANSGROHE",
         "points": 1
       },
       "polkadot": {
-        "rider": "",
-        "team": "",
+        "rider": "B. COSNEFROY",
+        "team": "AG2R LA MONDIALE",
         "points": 1
       },
       "white": {
-        "rider": "",
-        "team": "",
+        "rider": "E. BERNAL",
+        "team": "INEOS GRENADIERS",
         "points": 1
       },
       "combativity": {
-        "rider": "",
-        "team": "",
+        "rider": "M. HIRSCHI",
+        "team": "TEAM SUNWEB",
         "points": 1
       },
       "teams": {
-        "team": "",
+        "team": "MOVISTAR TEAM",
         "points": 1
       }
     },
