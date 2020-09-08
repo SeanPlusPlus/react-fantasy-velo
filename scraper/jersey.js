@@ -27,7 +27,7 @@ fetch(letour)
     console.log('Stage', stage);
     
     const winner = $('.winner__rider').text().trim();
-    const team = $('.winner__team').text().trim();
+    const team = $('.winner__team').text().trim().split('/')[0];
     var points = 3;
     if (firstStageWin) {
       points += 3;
@@ -80,6 +80,10 @@ fetch(letour)
         console.log(s);
         console.log(stageHonors);
         s.completed = true;
+        s.winner = stageHonors.winner;
+        honors.forEach((h) => {
+          s[h] = stageHonors[h];
+        });
       }
       return s;
     });
