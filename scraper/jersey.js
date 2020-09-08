@@ -24,8 +24,6 @@ fetch(letour)
   .then(body => {
     const $ = cheerio.load(body);
     const stage = parseInt($('h3.winner__title').text().split(' ')[1], 10);
-    console.log('Stage', stage);
-    
     const winner = $('.winner__rider').text().trim();
     const team = $('.winner__team').text().trim().split('/')[0];
     var points = 3;
@@ -77,13 +75,12 @@ fetch(letour)
 
     data.stages.forEach((s) => {
       if (s.number === stage) {
-        console.log(s);
-        console.log(stageHonors);
         s.completed = true;
         s.winner = stageHonors.winner;
         honors.forEach((h) => {
           s[h] = stageHonors[h];
         });
+        console.log('✅', s);
       }
       return s;
     });
