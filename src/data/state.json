@@ -557,7 +557,7 @@
       "date": "Tue 09/08/2020",
       "location": "ÎLE D'OLÉRON LE CHÂTEAU-D'OLÉRON > ÎLE DE RÉ SAINT-MARTIN-DE-RÉ",
       "distance": "168.5 KM",
-      "completed": false,
+      "completed": true,
       "winner": {
         "rider": "",
         "team": "",

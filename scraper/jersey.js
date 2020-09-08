@@ -79,10 +79,11 @@ fetch(letour)
       if (s.number === stage) {
         console.log(s);
         console.log(stageHonors);
+        s.completed = true;
       }
       return s;
     });
 
-    const json = JSON.stringify(data);
+    const json = JSON.stringify(data, null, 2);
     fs.writeFileSync(path, json);
   });
