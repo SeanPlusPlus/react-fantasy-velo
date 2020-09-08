@@ -1,5 +1,7 @@
 const fetch = require('node-fetch')
 const cheerio = require('cheerio');
+const fs = require('fs');
+
 const honors = [
   'yellow',
   'green',
@@ -68,5 +70,16 @@ fetch(letour)
         delete stageHonors[honor].rider;
       }
     })
-    console.log(stageHonors);
+
+    const path = '../src/data/state.json';
+    const state = fs.readFileSync(path);
+    const data = JSON.parse(state);
+
+    data.stages.forEach((s) => {
+      if (s.number === stage) {
+        console.log(s);
+        console.log(stageHonors);
+      }
+      return s;
+    })
   });
