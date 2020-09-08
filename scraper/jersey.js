@@ -15,7 +15,7 @@ const jerseys = [];
 const letour = 'https://www.letour.fr/en/';
 
 // winner bonus
-const firstStageWin = false;
+const firstStageWin = true;
 const wearingYellowJersey = false;
 const wearingOtherJersey = false;
 
