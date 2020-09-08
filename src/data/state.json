@@ -557,39 +557,39 @@
       "date": "Tue 09/08/2020",
       "location": "ÎLE D'OLÉRON LE CHÂTEAU-D'OLÉRON > ÎLE DE RÉ SAINT-MARTIN-DE-RÉ",
       "distance": "168.5 KM",
-      "completed": true,
+      "completed": false,
       "winner": {
-        "rider": "S. BENNETT",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 6
+        "rider": "",
+        "team": "",
+        "points": 3
       },
       "yellow": {
-        "rider": "P. ROGRLIC",
-        "team": "TEAM JUMBO - VISMA",
+        "rider": "",
+        "team": "",
         "points": 2
       },
       "green": {
-        "rider": "S. BENNETT",
-        "team": "DECEUNINCK - QUICK - STEP",
+        "rider": "",
+        "team": "",
         "points": 1
       },
       "polkadot": {
-        "rider": "B. COSNEFROY",
-        "team": "AG2R LA MONDIALE",
+        "rider": "",
+        "team": "",
         "points": 1
       },
       "white": {
-        "rider": "E. BERNAL",
-        "team": "INEOS GRENADIERS",
+        "rider": "",
+        "team": "",
         "points": 1
       },
       "combativity": {
-        "rider": "S KUNG",
-        "team": "GROUPAMA - FDJ",
+        "rider": "",
+        "team": "",
         "points": 1
       },
       "teams": {
-        "team": "MOVISTAR TEAM",
+        "team": "",
         "points": 1
       }
     },
