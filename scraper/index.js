@@ -48,8 +48,17 @@ const handleData = (documents) => {
   });
 }
 
-const resources = ['a7d677cfcfd6a3b14e0c66f610c43fa6/none']
-const base = 'https://www.letour.fr/en/ajax/ranking/7/itg'
-const urls = resources.map((r) => (`${base}/${r}`))
-
-getData(urls).then(handleData)
+const letour = 'https://www.letour.fr'
+const rankings = `${letour}/en/rankings`
+fetch(rankings)
+  .then(res => res.text())
+  .then(body => {
+    const $ = cheerio.load(body);
+    const resources = [];
+    $('.js-tabs-ranking').each((i, el) => { 
+      const itg = JSON.parse($(el).attr('data-ajax-stack')).itg
+      itg && resources.push(itg);
+    });
+    const urls = resources.map((r) => (`${letour}/${r}`))
+    getData(urls).then(handleData)
+  });
