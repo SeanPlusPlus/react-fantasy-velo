@@ -599,39 +599,39 @@
       "date": "Wed 09/09/2020",
       "location": "CHÂTELAILLON-PLAGE > POITIERS",
       "distance": "167.5 KM",
-      "completed": false,
+      "completed": true,
       "winner": {
-        "rider": "",
-        "team": "",
+        "rider": "C. EWAN",
+        "team": "LOTTO SOUDAL",
         "points": 3
       },
       "yellow": {
-        "rider": "",
-        "team": "",
+        "rider": "P. ROGLIC",
+        "team": "TEAM JUMBO - VISMA",
         "points": 2
       },
       "green": {
-        "rider": "",
-        "team": "",
+        "rider": "S. BENNETT",
+        "team": "DECEUNINCK - QUICK - STEP",
         "points": 1
       },
       "polkadot": {
-        "rider": "",
-        "team": "",
+        "rider": "B. COSNEFROY",
+        "team": "AG2R LA MONDIALE",
         "points": 1
       },
       "white": {
-        "rider": "",
-        "team": "",
+        "rider": "E. BERNAL",
+        "team": "INEOS GRENADIERS",
         "points": 1
       },
       "combativity": {
-        "rider": "",
-        "team": "",
+        "rider": "M. LADAGNOUS",
+        "team": "GROUPAMA - FDJ",
         "points": 1
       },
       "teams": {
-        "team": "",
+        "team": "MOVISTAR TEAM",
         "points": 1
       }
     },
