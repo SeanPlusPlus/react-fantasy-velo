@@ -44,7 +44,7 @@ const handleData = (documents) => {
         ...riders[i],
       };
     });
-    console.log(data);
+    console.table(data);
   });
 }
 
