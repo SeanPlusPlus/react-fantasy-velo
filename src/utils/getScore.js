@@ -1,6 +1,6 @@
 import _orderBy from 'lodash/orderBy';
 import _find from 'lodash/find';
-import stageHonors from '../utils/stageHonors';
+import stageHonors from './stageHonors';
 
 
 function getTeamScore(manager, scores) {

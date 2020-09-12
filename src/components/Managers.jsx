@@ -9,16 +9,21 @@ function Managers() {
   const managers = _orderBy(
     state.managers.map((m) => getScore(m, stages, teams)), 'score', 'desc'
   );
-  const active = stages.filter((s) => (s.completed)).length > 0;
-  const { setActiveManager, setReleasedTeam } = actions;
+  const activeDraft = stages.filter((s) => (s.completed)).length > 0;
+  const {
+    setActiveManager,
+    filterStageHonors,
+    setReleasedTeam,
+  } = actions;
   function handleManagerClick(manager) {
-    if (active) {
+    if (activeDraft) {
+      filterStageHonors(manager);
       return;
     }
     setActiveManager(manager);
   }
   function handleTeamClick(team, manager) {
-    if (active) {
+    if (activeDraft) {
       return;
     }
     setReleasedTeam(team, manager);
