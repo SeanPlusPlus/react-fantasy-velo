@@ -23,7 +23,9 @@ export const filterStageHonors = (store, manager) => {
       if (team) {
         const hasTeam = _includes(teams, team)
         if (!hasTeam) {
-          stage[honor] = {};
+          stage[honor].hide = true;
+        } else {
+          stage[honor].hide = false;
         }
       }
     });
