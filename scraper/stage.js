@@ -55,11 +55,7 @@ fetch(letour)
       // get points
       var points = honor === 'yellow' ? 2 : 1;
       if (stage === 21) {
-        if (honor === 'yellow') {
-          points = 25
-        } else {
-          points = 1
-        }
+        points = honor === 'yellow' ? 25 : 10;
       }
 
       const rider = jersey.name;
