@@ -14,10 +14,12 @@ const stageHonors = {};
 const jerseys = [];
 const letour = 'https://www.letour.fr/en/';
 
-// winner bonus
-const firstStageWin = true;
-const wearingYellowJersey = false;
-const wearingOtherJersey = false;
+// get bonus points
+const arg = process.argv[2];
+var bonus = 0;
+if (arg) {
+  bonus = parseInt(arg.split('=')[1], 10)
+}
 
 fetch(letour)
   .then(res => res.text())
@@ -26,14 +28,7 @@ fetch(letour)
     const stage = parseInt($('h3.winner__title').text().split(' ')[1], 10);
     const winner = $('.winner__rider').text().trim();
     const team = $('.winner__team').text().trim().split('/')[0];
-    var points = 3;
-    if (firstStageWin) {
-      points += 3;
-    } else if (wearingYellowJersey) {
-      points += 2
-    } else if (wearingOtherJersey) {
-      points += 1
-    }
+    var points = 3 + bonus;
     stageHonors.winner = {
       rider: winner,
       team: team,
