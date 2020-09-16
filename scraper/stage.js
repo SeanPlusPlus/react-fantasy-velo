@@ -51,7 +51,17 @@ fetch(letour)
     });
     jerseys.forEach((jersey) => {
       const honor = jersey.honor;
-      const points = honor === 'yellow' ? 2 : 1;
+
+      // get points
+      var points = honor === 'yellow' ? 2 : 1;
+      if (stage === 21) {
+        if (honor === 'yellow') {
+          points = 25
+        } else {
+          points = 1
+        }
+      }
+
       const rider = jersey.name;
       const team = (jersey.team === '') ? jersey.name : jersey.team;
       stageHonors[honor] = {
