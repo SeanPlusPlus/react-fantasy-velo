@@ -935,39 +935,39 @@
       "date": "Fri 09/18/2020",
       "location": "BOURG-EN-BRESSE > CHAMPAGNOLE",
       "distance": "166.5 KM",
-      "completed": false,
+      "completed": true,
       "winner": {
-        "rider": "",
-        "team": "",
+        "rider": "S. KRAGH ANDERSEN",
+        "team": "TEAM SUNWEB",
         "points": 3
       },
       "yellow": {
-        "rider": "",
-        "team": "",
+        "rider": "P. ROGLIC",
+        "team": "TEAM JUMBO - VISMA",
         "points": 2
       },
       "green": {
-        "rider": "",
-        "team": "",
+        "rider": "S. BENNETT",
+        "team": "DECEUNINCK - QUICK - STEP",
         "points": 1
       },
       "polkadot": {
-        "rider": "",
-        "team": "",
+        "rider": "R. CARAPAZ",
+        "team": "INEOS GRENADIERS",
         "points": 1
       },
       "white": {
-        "rider": "",
-        "team": "",
+        "rider": "T. POGACAR",
+        "team": "UAE TEAM EMIRATES",
         "points": 1
       },
       "combativity": {
-        "rider": "",
-        "team": "",
+        "rider": "R. CAVAGNA",
+        "team": "DECEUNINCK - QUICK - STEP",
         "points": 1
       },
       "teams": {
-        "team": "",
+        "team": "MOVISTAR TEAM",
         "points": 1
       }
     },
