@@ -1019,40 +1019,40 @@
       "date": "Sun 09/20/2020",
       "location": "MANTES-LA-JOLIE > PARIS CHAMPS-ÉLYSÉES",
       "distance": "122 KM",
-      "completed": false,
+      "completed": true,
       "winner": {
-        "rider": "",
-        "team": "",
-        "points": 3
+        "rider": "S. BENNETT",
+        "team": "DECEUNINCK - QUICK - STEP",
+        "points": 6
       },
       "yellow": {
-        "rider": "",
-        "team": "",
-        "points": 2
+        "rider": "T. POGACAR",
+        "team": "UAE TEAM EMIRATES",
+        "points": 25
       },
       "green": {
-        "rider": "",
-        "team": "",
-        "points": 1
+        "rider": "S. BENNETT",
+        "team": "DECEUNINCK - QUICK - STEP",
+        "points": 10
       },
       "polkadot": {
-        "rider": "",
-        "team": "",
-        "points": 1
+        "rider": "T. POGACAR",
+        "team": "UAE TEAM EMIRATES",
+        "points": 10
       },
       "white": {
-        "rider": "",
-        "team": "",
-        "points": 1
+        "rider": "T. POGACAR",
+        "team": "UAE TEAM EMIRATES",
+        "points": 10
       },
       "combativity": {
-        "rider": "",
-        "team": "",
-        "points": 1
+        "rider": "M. HIRSCHI",
+        "team": "TEAM SUNWEB",
+        "points": 10
       },
       "teams": {
-        "team": "",
-        "points": 1
+        "team": "MOVISTAR TEAM",
+        "points": 10
       }
     }
   ]
