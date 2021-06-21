@@ -4,9 +4,10 @@ import useGlobal from '../store';
 import Honor from './Honor';
 import stageHonors from '../utils/stageHonors';
 
-function Stages() {
+function Stages({ edition }) {
   const [state] = useGlobal();
-  const { stages, managers } = state;
+  const { editions } = state;
+  const { stages, managers } = editions[edition];
   const completed = _reverse(stages.filter((s) => (s.completed)));
   const teams = {};
   managers.forEach((manager) => {

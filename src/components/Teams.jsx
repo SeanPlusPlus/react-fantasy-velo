@@ -1,7 +1,7 @@
 import React from 'react';
 import useGlobal from '../store';
 
-function Teams() {
+function Teams({ edition }) {
   const [state, actions] = useGlobal();
   const { teams } = state;
   const { setActiveTeam } = actions;

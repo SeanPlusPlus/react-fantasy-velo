@@ -12,7 +12,7 @@ function Routes() {
     <Router>
       <div className="App container">
         <Switch>
-          <Route path="/editions/2020">
+          <Route path="/editions/:edition">
             <Main />
           </Route>
           <Route path="/">

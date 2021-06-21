@@ -3,11 +3,12 @@ import _orderBy from 'lodash/orderBy';
 import useGlobal from '../store';
 import getScore from '../utils/getScore';
 
-function Managers() {
+function Managers({ edition }) {
   const [state, actions] = useGlobal();
-  const { stages, teams } = state;
+  const { editions } = state;
+  const { stages, teams } = editions[edition];
   const managers = _orderBy(
-    state.managers.map((m) => getScore(m, stages, teams)), 'score', 'desc'
+    editions[edition].managers.map((m) => getScore(m, stages, teams)), 'score', 'desc'
   );
   const activeDraft = stages.filter((s) => (s.completed)).length > 0;
   const {

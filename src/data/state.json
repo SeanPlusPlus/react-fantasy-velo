@@ -1,1063 +1,1063 @@
 {
-  "editions": [
-    2020,
-    2021
-  ],
-  "managers": [
-    {
-      "name": "Kevin",
-      "teams": [
+  "editions": {
+    "2020": {
+      "managers": [
         {
-          "name": "TEAM JUMBO - VISMA"
+          "name": "Kevin",
+          "teams": [
+            {
+              "name": "TEAM JUMBO - VISMA"
+            },
+            {
+              "name": "EF PRO CYCLING"
+            },
+            {
+              "name": "DECEUNINCK - QUICK - STEP"
+            },
+            {
+              "name": "MITCHELTON - SCOTT"
+            },
+            {
+              "name": "ASTANA PRO TEAM"
+            },
+            {
+              "name": "TEAM SUNWEB"
+            },
+            {
+              "name": "TOTAL DIRECT ENERGIE"
+            }
+          ],
+          "active": false
         },
         {
-          "name": "EF PRO CYCLING"
+          "name": "Sean",
+          "teams": [
+            {
+              "name": "INEOS GRENADIERS"
+            },
+            {
+              "name": "BORA - HANSGROHE"
+            },
+            {
+              "name": "LOTTO SOUDAL"
+            },
+            {
+              "name": "UAE TEAM EMIRATES"
+            },
+            {
+              "name": "AG2R LA MONDIALE"
+            },
+            {
+              "name": "ISRAEL START-UP NATION"
+            },
+            {
+              "name": "CCC TEAM"
+            }
+          ],
+          "active": false
         },
         {
-          "name": "DECEUNINCK - QUICK - STEP"
-        },
-        {
-          "name": "MITCHELTON - SCOTT"
-        },
-        {
-          "name": "ASTANA PRO TEAM"
-        },
-        {
-          "name": "TEAM SUNWEB"
-        },
-        {
-          "name": "TOTAL DIRECT ENERGIE"
+          "name": "Dave",
+          "teams": [
+            {
+              "name": "GROUPAMA - FDJ"
+            },
+            {
+              "name": "TEAM ARKEA - SAMSIC"
+            },
+            {
+              "name": "BAHRAIN - MCLAREN"
+            },
+            {
+              "name": "MOVISTAR TEAM"
+            },
+            {
+              "name": "TREK - SEGAFREDO"
+            },
+            {
+              "name": "COFIDIS"
+            },
+            {
+              "name": "B&B HOTELS - VITAL CONCEPT P / B KTM"
+            }
+          ],
+          "active": false
         }
       ],
-      "active": false
-    },
-    {
-      "name": "Sean",
       "teams": [
         {
-          "name": "INEOS GRENADIERS"
+          "name": "AG2R LA MONDIALE",
+          "picked": true
         },
         {
-          "name": "BORA - HANSGROHE"
+          "name": "ASTANA PRO TEAM",
+          "picked": true
         },
         {
-          "name": "LOTTO SOUDAL"
+          "name": "B&B HOTELS - VITAL CONCEPT P / B KTM",
+          "picked": true
         },
         {
-          "name": "UAE TEAM EMIRATES"
+          "name": "BAHRAIN - MCLAREN",
+          "picked": true
         },
         {
-          "name": "AG2R LA MONDIALE"
+          "name": "BORA - HANSGROHE",
+          "picked": true
         },
         {
-          "name": "ISRAEL START-UP NATION"
+          "name": "CCC TEAM",
+          "picked": true
         },
         {
-          "name": "CCC TEAM"
+          "name": "COFIDIS",
+          "picked": true
+        },
+        {
+          "name": "DECEUNINCK - QUICK - STEP",
+          "picked": true
+        },
+        {
+          "name": "EF PRO CYCLING",
+          "picked": true
+        },
+        {
+          "name": "GROUPAMA - FDJ",
+          "picked": true
+        },
+        {
+          "name": "INEOS GRENADIERS",
+          "picked": true
+        },
+        {
+          "name": "ISRAEL START-UP NATION",
+          "picked": true
+        },
+        {
+          "name": "LOTTO SOUDAL",
+          "picked": true
+        },
+        {
+          "name": "MITCHELTON - SCOTT",
+          "picked": true
+        },
+        {
+          "name": "MOVISTAR TEAM",
+          "picked": true
+        },
+        {
+          "name": "NTT PRO CYCLING TEAM",
+          "picked": false
+        },
+        {
+          "name": "TEAM ARKEA - SAMSIC",
+          "picked": true
+        },
+        {
+          "name": "TEAM JUMBO - VISMA",
+          "picked": true
+        },
+        {
+          "name": "TEAM SUNWEB",
+          "picked": true
+        },
+        {
+          "name": "TOTAL DIRECT ENERGIE",
+          "picked": true
+        },
+        {
+          "name": "TREK - SEGAFREDO",
+          "picked": true
+        },
+        {
+          "name": "UAE TEAM EMIRATES",
+          "picked": true
         }
       ],
-      "active": false
-    },
-    {
-      "name": "Dave",
-      "teams": [
+      "stages": [
         {
-          "name": "GROUPAMA - FDJ"
+          "number": 1,
+          "type": "FLAT",
+          "date": "Sat 08/29/2020",
+          "location": "NICE MOYEN PAYS > NICE",
+          "distance": "156 KM",
+          "completed": true,
+          "winner": {
+            "rider": "A. KRISTOFF",
+            "team": "UAE TEAM EMIRATES",
+            "points": 3
+          },
+          "yellow": {
+            "rider": "A. KRISTOFF",
+            "team": "UAE TEAM EMIRATES",
+            "points": 2
+          },
+          "green": {
+            "rider": "P. SAGAN",
+            "team": "BORA - HANSGROHE",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "F. GRELLIER",
+            "team": "TOTAL DIRECT ENERGIE",
+            "points": 1
+          },
+          "white": {
+            "rider": "M. PEDERSON",
+            "team": "TREK - SEGAFREDO",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "M. SCHAR",
+            "team": "CCC TEAM",
+            "points": 1
+          },
+          "teams": {
+            "team": "TREK - SEGAFREDO",
+            "points": 1
+          }
         },
         {
-          "name": "TEAM ARKEA - SAMSIC"
+          "number": 2,
+          "type": "MOUNTAIN",
+          "date": "Sun 08/30/2020",
+          "location": "NICE HAUT PAYS > NICE",
+          "distance": "186 KM",
+          "completed": true,
+          "winner": {
+            "rider": "J. ALAPHILIPPE",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 3
+          },
+          "yellow": {
+            "rider": "J. ALAPHILIPPE",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 2
+          },
+          "green": {
+            "rider": "A. KRISTOFF",
+            "team": "UAE TEAM EMIRATES",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "B. COSNEFROY",
+            "team": "AG2R LA MONDIALE",
+            "points": 1
+          },
+          "white": {
+            "rider": "M. HIRSCHI",
+            "team": "TEAM SUNWEB",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "B. COSNEFROY",
+            "team": "AG2R LA MONDIALE",
+            "points": 1
+          },
+          "teams": {
+            "team": "TREK - SEGAFREDO",
+            "points": 1
+          }
         },
         {
-          "name": "BAHRAIN - MCLAREN"
+          "number": 3,
+          "type": "FLAT",
+          "date": "Mon 08/31/2020",
+          "location": "NICE > SISTERON",
+          "distance": "198 KM",
+          "completed": true,
+          "winner": {
+            "rider": "C. EWAN",
+            "team": "LOTTO SOUDAL",
+            "points": 3
+          },
+          "yellow": {
+            "rider": "J. ALAPHILIPPE",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 2
+          },
+          "green": {
+            "rider": "P. SAGAN",
+            "team": "BORA - HANSGROHE",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "B. COSNEFROY",
+            "team": "AG2R LA MONDIALE",
+            "points": 1
+          },
+          "white": {
+            "rider": "M. HIRSCHI",
+            "team": "TEAM SUNWEB",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "J. COUSIN",
+            "team": "TOTAL DIRECT ENERGIE",
+            "points": 1
+          },
+          "teams": {
+            "team": "TREK - SEGAFREDO",
+            "points": 1
+          }
         },
         {
-          "name": "MOVISTAR TEAM"
+          "number": 4,
+          "type": "HILLY",
+          "date": "Tue 09/01/2020",
+          "location": "SISTERON > ORCIÈRES-MERLETTE",
+          "distance": "160.5 KM",
+          "completed": true,
+          "winner": {
+            "rider": "P. ROGLIC",
+            "team": "TEAM JUMBO - VISMA",
+            "points": 3
+          },
+          "yellow": {
+            "rider": "J. ALAPHILIPPE",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 2
+          },
+          "green": {
+            "rider": "P. SAGAN",
+            "team": "BORA - HANSGROHE",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "B. COSNEFROY",
+            "team": "AG2R LA MONDIALE",
+            "points": 1
+          },
+          "white": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "K. NEILANDS",
+            "team": "ISRAEL START-UP NATION",
+            "points": 1
+          },
+          "teams": {
+            "team": "EF PRO CYCLING",
+            "points": 1
+          }
         },
         {
-          "name": "TREK - SEGAFREDO"
+          "number": 5,
+          "type": "FLAT",
+          "date": "Wed 09/02/2020",
+          "location": "GAP > PRIVAS",
+          "distance": "183 KM",
+          "completed": true,
+          "winner": {
+            "rider": "W. VAN AERT",
+            "team": "TEAM JUMBO - VISMA",
+            "points": 3
+          },
+          "yellow": {
+            "rider": "A. YATES",
+            "team": "MITCHELTON - SCOTT",
+            "points": 2
+          },
+          "green": {
+            "rider": "S. BENNETT",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "B. COSNEFROY",
+            "team": "AG2R LA MONDIALE",
+            "points": 1
+          },
+          "white": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "W. POELS",
+            "team": "BAHRAIN - MCLAREN",
+            "points": 1
+          },
+          "teams": {
+            "team": "EF PRO CYCLING",
+            "points": 1
+          }
         },
         {
-          "name": "COFIDIS"
+          "number": 6,
+          "type": "HILLY",
+          "date": "Thu 09/03/2020",
+          "location": "LE TEIL > MONT AIGOUAL",
+          "distance": "191 KM",
+          "completed": true,
+          "winner": {
+            "rider": "A. LUTSENKO",
+            "team": "ASTANA PRO TEAM",
+            "points": 6
+          },
+          "yellow": {
+            "rider": "A. YATES",
+            "team": "MITCHELTON - SCOTT",
+            "points": 2
+          },
+          "green": {
+            "rider": "S. BENNETT",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "B. COSNEFROY",
+            "team": "AG2R LA MONDIALE",
+            "points": 1
+          },
+          "white": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "N. ROCHE",
+            "team": "TEAM SUNWEB",
+            "points": 1
+          },
+          "teams": {
+            "team": "EF PRO CYCLING",
+            "points": 1
+          }
         },
         {
-          "name": "B&B HOTELS - VITAL CONCEPT P / B KTM"
+          "number": 7,
+          "type": "FLAT",
+          "date": "Fri 09/04/2020",
+          "location": "MILLAU > LAVAUR",
+          "distance": "168 KM",
+          "completed": true,
+          "winner": {
+            "rider": "W. VAN AERT",
+            "team": "TEAM JUMBO - VISMA",
+            "points": 3
+          },
+          "yellow": {
+            "rider": "A. YATES",
+            "team": "MITCHELTON - SCOTT",
+            "points": 2
+          },
+          "green": {
+            "rider": "P. SAGAN",
+            "team": "BORA - HANSGROHE",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "B. COSNEFROY",
+            "team": "AG2R LA MONDIALE",
+            "points": 1
+          },
+          "white": {
+            "rider": "E. BERNAL",
+            "team": "INEOS GRENADIERS",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "D. OSS",
+            "team": "BORA - HANSGROHE",
+            "points": 1
+          },
+          "teams": {
+            "team": "EF PRO CYCLING",
+            "points": 1
+          }
+        },
+        {
+          "number": 8,
+          "type": "MOUNTAIN",
+          "date": "Sat 09/05/2020",
+          "location": "CAZÈRES-SUR-GARONNE > LOUDENVIELLE",
+          "distance": "141 KM",
+          "completed": true,
+          "winner": {
+            "rider": "N. PETERS",
+            "team": "AG2R LA MONDIALE",
+            "points": 6
+          },
+          "yellow": {
+            "rider": "A. YATES",
+            "team": "MITCHELTON - SCOTT",
+            "points": 2
+          },
+          "green": {
+            "rider": "P. SAGAN",
+            "team": "BORA - HANSGROHE",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "B. COSNEFROY",
+            "team": "AG2R LA MONDIALE",
+            "points": 1
+          },
+          "white": {
+            "rider": "E. BERNAL",
+            "team": "INEOS GRENADIERS",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "N. PETERS",
+            "team": "AG2R LA MONDIALE",
+            "points": 1
+          },
+          "teams": {
+            "team": "EF PRO CYCLING",
+            "points": 1
+          }
+        },
+        {
+          "number": 9,
+          "type": "MOUNTAIN",
+          "date": "Sun 09/06/2020",
+          "location": "PAU > LARUNS",
+          "distance": "153 KM",
+          "completed": true,
+          "winner": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 6
+          },
+          "yellow": {
+            "rider": "P. ROGRLIC",
+            "team": "TEAM JUMBO - VISMA",
+            "points": 2
+          },
+          "green": {
+            "rider": "P. SAGAN",
+            "team": "BORA - HANSGROHE",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "B. COSNEFROY",
+            "team": "AG2R LA MONDIALE",
+            "points": 1
+          },
+          "white": {
+            "rider": "E. BERNAL",
+            "team": "INEOS GRENADIERS",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "M. HIRSCHI",
+            "team": "TEAM SUNWEB",
+            "points": 1
+          },
+          "teams": {
+            "team": "MOVISTAR TEAM",
+            "points": 1
+          }
+        },
+        {
+          "number": 10,
+          "type": "FLAT",
+          "date": "Tue 09/08/2020",
+          "location": "ÎLE D'OLÉRON LE CHÂTEAU-D'OLÉRON > ÎLE DE RÉ SAINT-MARTIN-DE-RÉ",
+          "distance": "168.5 KM",
+          "completed": true,
+          "winner": {
+            "rider": "S. BENNETT",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 6
+          },
+          "yellow": {
+            "rider": "P. ROGLIC",
+            "team": "TEAM JUMBO - VISMA",
+            "points": 2
+          },
+          "green": {
+            "rider": "S. BENNETT",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "B. COSNEFROY",
+            "team": "AG2R LA MONDIALE",
+            "points": 1
+          },
+          "white": {
+            "rider": "E. BERNAL",
+            "team": "INEOS GRENADIERS",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "S. KÜNG",
+            "team": "GROUPAMA - FDJ",
+            "points": 1
+          },
+          "teams": {
+            "team": "MOVISTAR TEAM",
+            "points": 1
+          }
+        },
+        {
+          "number": 11,
+          "type": "FLAT",
+          "date": "Wed 09/09/2020",
+          "location": "CHÂTELAILLON-PLAGE > POITIERS",
+          "distance": "167.5 KM",
+          "completed": true,
+          "winner": {
+            "rider": "C. EWAN",
+            "team": "LOTTO SOUDAL",
+            "points": 3
+          },
+          "yellow": {
+            "rider": "P. ROGLIC",
+            "team": "TEAM JUMBO - VISMA",
+            "points": 2
+          },
+          "green": {
+            "rider": "S. BENNETT",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "B. COSNEFROY",
+            "team": "AG2R LA MONDIALE",
+            "points": 1
+          },
+          "white": {
+            "rider": "E. BERNAL",
+            "team": "INEOS GRENADIERS",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "M. LADAGNOUS",
+            "team": "GROUPAMA - FDJ",
+            "points": 1
+          },
+          "teams": {
+            "team": "MOVISTAR TEAM",
+            "points": 1
+          }
+        },
+        {
+          "number": 12,
+          "type": "HILLY",
+          "date": "Thu 09/10/2020",
+          "location": "CHAUVIGNY > SARRAN CORRÈZE",
+          "distance": "218 KM",
+          "completed": true,
+          "winner": {
+            "rider": "M. HIRSCHI",
+            "team": "TEAM SUNWEB",
+            "points": 6
+          },
+          "yellow": {
+            "rider": "P. ROGLIC",
+            "team": "TEAM JUMBO - VISMA",
+            "points": 2
+          },
+          "green": {
+            "rider": "S. BENNETT",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "B. COSNEFROY",
+            "team": "AG2R LA MONDIALE",
+            "points": 1
+          },
+          "white": {
+            "rider": "E. BERNAL",
+            "team": "INEOS GRENADIERS",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "M. HIRSCHI",
+            "team": "TEAM SUNWEB",
+            "points": 1
+          },
+          "teams": {
+            "team": "MOVISTAR TEAM",
+            "points": 1
+          }
+        },
+        {
+          "number": 13,
+          "type": "MOUNTAIN",
+          "date": "Fri 09/11/2020",
+          "location": "CHÂTEL-GUYON > PUY MARY CANTAL",
+          "distance": "191.5 KM",
+          "completed": true,
+          "winner": {
+            "rider": "D. MARTINEZ",
+            "team": "EF PRO CYCLING",
+            "points": 6
+          },
+          "yellow": {
+            "rider": "P. ROGLIC",
+            "team": "TEAM JUMBO - VISMA",
+            "points": 2
+          },
+          "green": {
+            "rider": "S. BENNETT",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "B. COSNEFROY",
+            "team": "AG2R LA MONDIALE",
+            "points": 1
+          },
+          "white": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "M. SCHACHMANN",
+            "team": "BORA - HANSGROHE",
+            "points": 1
+          },
+          "teams": {
+            "team": "EF PRO CYCLING",
+            "points": 1
+          }
+        },
+        {
+          "number": 14,
+          "type": "FLAT",
+          "date": "Sat 09/12/2020",
+          "location": "CLERMONT-FERRAND > LYON",
+          "distance": "194 KM",
+          "completed": true,
+          "winner": {
+            "rider": "S. KRAGH ANDERSEN",
+            "team": "TEAM SUNWEB",
+            "points": 6
+          },
+          "yellow": {
+            "rider": "P. ROGLIC",
+            "team": "TEAM JUMBO - VISMA",
+            "points": 2
+          },
+          "green": {
+            "rider": "S. BENNETT",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "B. COSNEFROY",
+            "team": "AG2R LA MONDIALE",
+            "points": 1
+          },
+          "white": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "S. KÜNG",
+            "team": "GROUPAMA - FDJ",
+            "points": 1
+          },
+          "teams": {
+            "team": "EF PRO CYCLING",
+            "points": 1
+          }
+        },
+        {
+          "number": 15,
+          "type": "MOUNTAIN",
+          "date": "Sun 09/13/2020",
+          "location": "LYON > GRAND COLOMBIER",
+          "distance": "174.5 KM",
+          "completed": true,
+          "winner": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 4
+          },
+          "yellow": {
+            "rider": "P. ROGLIC",
+            "team": "TEAM JUMBO - VISMA",
+            "points": 2
+          },
+          "green": {
+            "rider": "S. BENNETT",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "B. COSNEFROY",
+            "team": "AG2R LA MONDIALE",
+            "points": 1
+          },
+          "white": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "P. ROLLAND",
+            "team": "B&B HOTELS - VITAL CONCEPT P / B KTM",
+            "points": 1
+          },
+          "teams": {
+            "team": "MOVISTAR TEAM",
+            "points": 1
+          }
+        },
+        {
+          "number": 16,
+          "type": "MOUNTAIN",
+          "date": "Tue 09/15/2020",
+          "location": "LA TOUR-DU-PIN > VILLARD-DE-LANS",
+          "distance": "164 KM",
+          "completed": true,
+          "winner": {
+            "rider": "L. KÄMNA",
+            "team": "BORA - HANSGROHE",
+            "points": 6
+          },
+          "yellow": {
+            "rider": "P. ROGLIC",
+            "team": "TEAM JUMBO - VISMA",
+            "points": 2
+          },
+          "green": {
+            "rider": "S. BENNETT",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "B. COSNEFROY",
+            "team": "AG2R LA MONDIALE",
+            "points": 1
+          },
+          "white": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "R. CARAPAZ",
+            "team": "INEOS GRENADIERS",
+            "points": 1
+          },
+          "teams": {
+            "team": "MOVISTAR TEAM",
+            "points": 1
+          }
+        },
+        {
+          "number": 17,
+          "type": "MOUNTAIN",
+          "date": "Wed 09/16/2020",
+          "location": "GRENOBLE > MÉRIBEL COL DE LA LOZE",
+          "distance": "170 KM",
+          "completed": true,
+          "winner": {
+            "rider": "M. LOPEZ",
+            "team": "ASTANA PRO TEAM",
+            "points": 6
+          },
+          "yellow": {
+            "rider": "P. ROGLIC",
+            "team": "TEAM JUMBO - VISMA",
+            "points": 2
+          },
+          "green": {
+            "rider": "S. BENNETT",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 1
+          },
+          "white": {
+            "rider": "E. MAS",
+            "team": "MOVISTAR TEAM",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "J. ALAPHILIPPE",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "teams": {
+            "team": "MOVISTAR TEAM",
+            "points": 1
+          }
+        },
+        {
+          "number": 18,
+          "type": "MOUNTAIN",
+          "date": "Thu 09/17/2020",
+          "location": "MÉRIBEL > LA ROCHE-SUR-FORON",
+          "distance": "175 KM",
+          "completed": true,
+          "winner": {
+            "rider": "M. KWIATKOWSKI",
+            "team": "INEOS GRENADIERS",
+            "points": 6
+          },
+          "yellow": {
+            "rider": "P. ROGLIC",
+            "team": "TEAM JUMBO - VISMA",
+            "points": 2
+          },
+          "green": {
+            "rider": "S. BENNETT",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "R. CARAPAZ",
+            "team": "INEOS GRENADIERS",
+            "points": 1
+          },
+          "white": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "M. HIRSCHI",
+            "team": "TEAM SUNWEB",
+            "points": 1
+          },
+          "teams": {
+            "team": "MOVISTAR TEAM",
+            "points": 1
+          }
+        },
+        {
+          "number": 19,
+          "type": "FLAT",
+          "date": "Fri 09/18/2020",
+          "location": "BOURG-EN-BRESSE > CHAMPAGNOLE",
+          "distance": "166.5 KM",
+          "completed": true,
+          "winner": {
+            "rider": "S. KRAGH ANDERSEN",
+            "team": "TEAM SUNWEB",
+            "points": 3
+          },
+          "yellow": {
+            "rider": "P. ROGLIC",
+            "team": "TEAM JUMBO - VISMA",
+            "points": 2
+          },
+          "green": {
+            "rider": "S. BENNETT",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "R. CARAPAZ",
+            "team": "INEOS GRENADIERS",
+            "points": 1
+          },
+          "white": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "R. CAVAGNA",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "teams": {
+            "team": "MOVISTAR TEAM",
+            "points": 1
+          }
+        },
+        {
+          "number": 20,
+          "type": "INDIVIDUAL TIME-TRIAL",
+          "date": "Sat 09/19/2020",
+          "location": "LURE > LA PLANCHE DES BELLES FILLES",
+          "distance": "36.2 KM",
+          "completed": true,
+          "winner": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 4
+          },
+          "yellow": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 2
+          },
+          "green": {
+            "rider": "S. BENNETT",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "R. CARAPAZ",
+            "team": "INEOS GRENADIERS",
+            "points": 1
+          },
+          "white": {
+            "rider": "E. MAS",
+            "team": "MOVISTAR TEAM",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "",
+            "team": "",
+            "points": 1
+          },
+          "teams": {
+            "team": "MOVISTAR TEAM",
+            "points": 1
+          }
+        },
+        {
+          "number": 21,
+          "type": "FLAT",
+          "date": "Sun 09/20/2020",
+          "location": "MANTES-LA-JOLIE > PARIS CHAMPS-ÉLYSÉES",
+          "distance": "122 KM",
+          "completed": true,
+          "winner": {
+            "rider": "S. BENNETT",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 6
+          },
+          "yellow": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 25
+          },
+          "green": {
+            "rider": "S. BENNETT",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 10
+          },
+          "polkadot": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 10
+          },
+          "white": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 10
+          },
+          "combativity": {
+            "rider": "M. HIRSCHI",
+            "team": "TEAM SUNWEB",
+            "points": 10
+          },
+          "teams": {
+            "team": "MOVISTAR TEAM",
+            "points": 10
+          }
         }
-      ],
-      "active": false
+      ]
     }
-  ],
-  "teams": [
-    {
-      "name": "AG2R LA MONDIALE",
-      "picked": true
-    },
-    {
-      "name": "ASTANA PRO TEAM",
-      "picked": true
-    },
-    {
-      "name": "B&B HOTELS - VITAL CONCEPT P / B KTM",
-      "picked": true
-    },
-    {
-      "name": "BAHRAIN - MCLAREN",
-      "picked": true
-    },
-    {
-      "name": "BORA - HANSGROHE",
-      "picked": true
-    },
-    {
-      "name": "CCC TEAM",
-      "picked": true
-    },
-    {
-      "name": "COFIDIS",
-      "picked": true
-    },
-    {
-      "name": "DECEUNINCK - QUICK - STEP",
-      "picked": true
-    },
-    {
-      "name": "EF PRO CYCLING",
-      "picked": true
-    },
-    {
-      "name": "GROUPAMA - FDJ",
-      "picked": true
-    },
-    {
-      "name": "INEOS GRENADIERS",
-      "picked": true
-    },
-    {
-      "name": "ISRAEL START-UP NATION",
-      "picked": true
-    },
-    {
-      "name": "LOTTO SOUDAL",
-      "picked": true
-    },
-    {
-      "name": "MITCHELTON - SCOTT",
-      "picked": true
-    },
-    {
-      "name": "MOVISTAR TEAM",
-      "picked": true
-    },
-    {
-      "name": "NTT PRO CYCLING TEAM",
-      "picked": false
-    },
-    {
-      "name": "TEAM ARKEA - SAMSIC",
-      "picked": true
-    },
-    {
-      "name": "TEAM JUMBO - VISMA",
-      "picked": true
-    },
-    {
-      "name": "TEAM SUNWEB",
-      "picked": true
-    },
-    {
-      "name": "TOTAL DIRECT ENERGIE",
-      "picked": true
-    },
-    {
-      "name": "TREK - SEGAFREDO",
-      "picked": true
-    },
-    {
-      "name": "UAE TEAM EMIRATES",
-      "picked": true
-    }
-  ],
-  "stages": [
-    {
-      "number": 1,
-      "type": "FLAT",
-      "date": "Sat 08/29/2020",
-      "location": "NICE MOYEN PAYS > NICE",
-      "distance": "156 KM",
-      "completed": true,
-      "winner": {
-        "rider": "A. KRISTOFF",
-        "team": "UAE TEAM EMIRATES",
-        "points": 3
-      },
-      "yellow": {
-        "rider": "A. KRISTOFF",
-        "team": "UAE TEAM EMIRATES",
-        "points": 2
-      },
-      "green": {
-        "rider": "P. SAGAN",
-        "team": "BORA - HANSGROHE",
-        "points": 1
-      },
-      "polkadot": {
-        "rider": "F. GRELLIER",
-        "team": "TOTAL DIRECT ENERGIE",
-        "points": 1
-      },
-      "white": {
-        "rider": "M. PEDERSON",
-        "team": "TREK - SEGAFREDO",
-        "points": 1
-      },
-      "combativity": {
-        "rider": "M. SCHAR",
-        "team": "CCC TEAM",
-        "points": 1
-      },
-      "teams": {
-        "team": "TREK - SEGAFREDO",
-        "points": 1
-      }
-    },
-    {
-      "number": 2,
-      "type": "MOUNTAIN",
-      "date": "Sun 08/30/2020",
-      "location": "NICE HAUT PAYS > NICE",
-      "distance": "186 KM",
-      "completed": true,
-      "winner": {
-        "rider": "J. ALAPHILIPPE",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 3
-      },
-      "yellow": {
-        "rider": "J. ALAPHILIPPE",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 2
-      },
-      "green": {
-        "rider": "A. KRISTOFF",
-        "team": "UAE TEAM EMIRATES",
-        "points": 1
-      },
-      "polkadot": {
-        "rider": "B. COSNEFROY",
-        "team": "AG2R LA MONDIALE",
-        "points": 1
-      },
-      "white": {
-        "rider": "M. HIRSCHI",
-        "team": "TEAM SUNWEB",
-        "points": 1
-      },
-      "combativity": {
-        "rider": "B. COSNEFROY",
-        "team": "AG2R LA MONDIALE",
-        "points": 1
-      },
-      "teams": {
-        "team": "TREK - SEGAFREDO",
-        "points": 1
-      }
-    },
-    {
-      "number": 3,
-      "type": "FLAT",
-      "date": "Mon 08/31/2020",
-      "location": "NICE > SISTERON",
-      "distance": "198 KM",
-      "completed": true,
-      "winner": {
-        "rider": "C. EWAN",
-        "team": "LOTTO SOUDAL",
-        "points": 3
-      },
-      "yellow": {
-        "rider": "J. ALAPHILIPPE",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 2
-      },
-      "green": {
-        "rider": "P. SAGAN",
-        "team": "BORA - HANSGROHE",
-        "points": 1
-      },
-      "polkadot": {
-        "rider": "B. COSNEFROY",
-        "team": "AG2R LA MONDIALE",
-        "points": 1
-      },
-      "white": {
-        "rider": "M. HIRSCHI",
-        "team": "TEAM SUNWEB",
-        "points": 1
-      },
-      "combativity": {
-        "rider": "J. COUSIN",
-        "team": "TOTAL DIRECT ENERGIE",
-        "points": 1
-      },
-      "teams": {
-        "team": "TREK - SEGAFREDO",
-        "points": 1
-      }
-    },
-    {
-      "number": 4,
-      "type": "HILLY",
-      "date": "Tue 09/01/2020",
-      "location": "SISTERON > ORCIÈRES-MERLETTE",
-      "distance": "160.5 KM",
-      "completed": true,
-      "winner": {
-        "rider": "P. ROGLIC",
-        "team": "TEAM JUMBO - VISMA",
-        "points": 3
-      },
-      "yellow": {
-        "rider": "J. ALAPHILIPPE",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 2
-      },
-      "green": {
-        "rider": "P. SAGAN",
-        "team": "BORA - HANSGROHE",
-        "points": 1
-      },
-      "polkadot": {
-        "rider": "B. COSNEFROY",
-        "team": "AG2R LA MONDIALE",
-        "points": 1
-      },
-      "white": {
-        "rider": "T. POGACAR",
-        "team": "UAE TEAM EMIRATES",
-        "points": 1
-      },
-      "combativity": {
-        "rider": "K. NEILANDS",
-        "team": "ISRAEL START-UP NATION",
-        "points": 1
-      },
-      "teams": {
-        "team": "EF PRO CYCLING",
-        "points": 1
-      }
-    },
-    {
-      "number": 5,
-      "type": "FLAT",
-      "date": "Wed 09/02/2020",
-      "location": "GAP > PRIVAS",
-      "distance": "183 KM",
-      "completed": true,
-      "winner": {
-        "rider": "W. VAN AERT",
-        "team": "TEAM JUMBO - VISMA",
-        "points": 3
-      },
-      "yellow": {
-        "rider": "A. YATES",
-        "team": "MITCHELTON - SCOTT",
-        "points": 2
-      },
-      "green": {
-        "rider": "S. BENNETT",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 1
-      },
-      "polkadot": {
-        "rider": "B. COSNEFROY",
-        "team": "AG2R LA MONDIALE",
-        "points": 1
-      },
-      "white": {
-        "rider": "T. POGACAR",
-        "team": "UAE TEAM EMIRATES",
-        "points": 1
-      },
-      "combativity": {
-        "rider": "W. POELS",
-        "team": "BAHRAIN - MCLAREN",
-        "points": 1
-      },
-      "teams": {
-        "team": "EF PRO CYCLING",
-        "points": 1
-      }
-    },
-    {
-      "number": 6,
-      "type": "HILLY",
-      "date": "Thu 09/03/2020",
-      "location": "LE TEIL > MONT AIGOUAL",
-      "distance": "191 KM",
-      "completed": true,
-      "winner": {
-        "rider": "A. LUTSENKO",
-        "team": "ASTANA PRO TEAM",
-        "points": 6
-      },
-      "yellow": {
-        "rider": "A. YATES",
-        "team": "MITCHELTON - SCOTT",
-        "points": 2
-      },
-      "green": {
-        "rider": "S. BENNETT",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 1
-      },
-      "polkadot": {
-        "rider": "B. COSNEFROY",
-        "team": "AG2R LA MONDIALE",
-        "points": 1
-      },
-      "white": {
-        "rider": "T. POGACAR",
-        "team": "UAE TEAM EMIRATES",
-        "points": 1
-      },
-      "combativity": {
-        "rider": "N. ROCHE",
-        "team": "TEAM SUNWEB",
-        "points": 1
-      },
-      "teams": {
-        "team": "EF PRO CYCLING",
-        "points": 1
-      }
-    },
-    {
-      "number": 7,
-      "type": "FLAT",
-      "date": "Fri 09/04/2020",
-      "location": "MILLAU > LAVAUR",
-      "distance": "168 KM",
-      "completed": true,
-      "winner": {
-        "rider": "W. VAN AERT",
-        "team": "TEAM JUMBO - VISMA",
-        "points": 3
-      },
-      "yellow": {
-        "rider": "A. YATES",
-        "team": "MITCHELTON - SCOTT",
-        "points": 2
-      },
-      "green": {
-        "rider": "P. SAGAN",
-        "team": "BORA - HANSGROHE",
-        "points": 1
-      },
-      "polkadot": {
-        "rider": "B. COSNEFROY",
-        "team": "AG2R LA MONDIALE",
-        "points": 1
-      },
-      "white": {
-        "rider": "E. BERNAL",
-        "team": "INEOS GRENADIERS",
-        "points": 1
-      },
-      "combativity": {
-        "rider": "D. OSS",
-        "team": "BORA - HANSGROHE",
-        "points": 1
-      },
-      "teams": {
-        "team": "EF PRO CYCLING",
-        "points": 1
-      }
-    },
-    {
-      "number": 8,
-      "type": "MOUNTAIN",
-      "date": "Sat 09/05/2020",
-      "location": "CAZÈRES-SUR-GARONNE > LOUDENVIELLE",
-      "distance": "141 KM",
-      "completed": true,
-      "winner": {
-        "rider": "N. PETERS",
-        "team": "AG2R LA MONDIALE",
-        "points": 6
-      },
-      "yellow": {
-        "rider": "A. YATES",
-        "team": "MITCHELTON - SCOTT",
-        "points": 2
-      },
-      "green": {
-        "rider": "P. SAGAN",
-        "team": "BORA - HANSGROHE",
-        "points": 1
-      },
-      "polkadot": {
-        "rider": "B. COSNEFROY",
-        "team": "AG2R LA MONDIALE",
-        "points": 1
-      },
-      "white": {
-        "rider": "E. BERNAL",
-        "team": "INEOS GRENADIERS",
-        "points": 1
-      },
-      "combativity": {
-        "rider": "N. PETERS",
-        "team": "AG2R LA MONDIALE",
-        "points": 1
-      },
-      "teams": {
-        "team": "EF PRO CYCLING",
-        "points": 1
-      }
-    },
-    {
-      "number": 9,
-      "type": "MOUNTAIN",
-      "date": "Sun 09/06/2020",
-      "location": "PAU > LARUNS",
-      "distance": "153 KM",
-      "completed": true,
-      "winner": {
-        "rider": "T. POGACAR",
-        "team": "UAE TEAM EMIRATES",
-        "points": 6
-      },
-      "yellow": {
-        "rider": "P. ROGRLIC",
-        "team": "TEAM JUMBO - VISMA",
-        "points": 2
-      },
-      "green": {
-        "rider": "P. SAGAN",
-        "team": "BORA - HANSGROHE",
-        "points": 1
-      },
-      "polkadot": {
-        "rider": "B. COSNEFROY",
-        "team": "AG2R LA MONDIALE",
-        "points": 1
-      },
-      "white": {
-        "rider": "E. BERNAL",
-        "team": "INEOS GRENADIERS",
-        "points": 1
-      },
-      "combativity": {
-        "rider": "M. HIRSCHI",
-        "team": "TEAM SUNWEB",
-        "points": 1
-      },
-      "teams": {
-        "team": "MOVISTAR TEAM",
-        "points": 1
-      }
-    },
-    {
-      "number": 10,
-      "type": "FLAT",
-      "date": "Tue 09/08/2020",
-      "location": "ÎLE D'OLÉRON LE CHÂTEAU-D'OLÉRON > ÎLE DE RÉ SAINT-MARTIN-DE-RÉ",
-      "distance": "168.5 KM",
-      "completed": true,
-      "winner": {
-        "rider": "S. BENNETT",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 6
-      },
-      "yellow": {
-        "rider": "P. ROGLIC",
-        "team": "TEAM JUMBO - VISMA",
-        "points": 2
-      },
-      "green": {
-        "rider": "S. BENNETT",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 1
-      },
-      "polkadot": {
-        "rider": "B. COSNEFROY",
-        "team": "AG2R LA MONDIALE",
-        "points": 1
-      },
-      "white": {
-        "rider": "E. BERNAL",
-        "team": "INEOS GRENADIERS",
-        "points": 1
-      },
-      "combativity": {
-        "rider": "S. KÜNG",
-        "team": "GROUPAMA - FDJ",
-        "points": 1
-      },
-      "teams": {
-        "team": "MOVISTAR TEAM",
-        "points": 1
-      }
-    },
-    {
-      "number": 11,
-      "type": "FLAT",
-      "date": "Wed 09/09/2020",
-      "location": "CHÂTELAILLON-PLAGE > POITIERS",
-      "distance": "167.5 KM",
-      "completed": true,
-      "winner": {
-        "rider": "C. EWAN",
-        "team": "LOTTO SOUDAL",
-        "points": 3
-      },
-      "yellow": {
-        "rider": "P. ROGLIC",
-        "team": "TEAM JUMBO - VISMA",
-        "points": 2
-      },
-      "green": {
-        "rider": "S. BENNETT",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 1
-      },
-      "polkadot": {
-        "rider": "B. COSNEFROY",
-        "team": "AG2R LA MONDIALE",
-        "points": 1
-      },
-      "white": {
-        "rider": "E. BERNAL",
-        "team": "INEOS GRENADIERS",
-        "points": 1
-      },
-      "combativity": {
-        "rider": "M. LADAGNOUS",
-        "team": "GROUPAMA - FDJ",
-        "points": 1
-      },
-      "teams": {
-        "team": "MOVISTAR TEAM",
-        "points": 1
-      }
-    },
-    {
-      "number": 12,
-      "type": "HILLY",
-      "date": "Thu 09/10/2020",
-      "location": "CHAUVIGNY > SARRAN CORRÈZE",
-      "distance": "218 KM",
-      "completed": true,
-      "winner": {
-        "rider": "M. HIRSCHI",
-        "team": "TEAM SUNWEB",
-        "points": 6
-      },
-      "yellow": {
-        "rider": "P. ROGLIC",
-        "team": "TEAM JUMBO - VISMA",
-        "points": 2
-      },
-      "green": {
-        "rider": "S. BENNETT",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 1
-      },
-      "polkadot": {
-        "rider": "B. COSNEFROY",
-        "team": "AG2R LA MONDIALE",
-        "points": 1
-      },
-      "white": {
-        "rider": "E. BERNAL",
-        "team": "INEOS GRENADIERS",
-        "points": 1
-      },
-      "combativity": {
-        "rider": "M. HIRSCHI",
-        "team": "TEAM SUNWEB",
-        "points": 1
-      },
-      "teams": {
-        "team": "MOVISTAR TEAM",
-        "points": 1
-      }
-    },
-    {
-      "number": 13,
-      "type": "MOUNTAIN",
-      "date": "Fri 09/11/2020",
-      "location": "CHÂTEL-GUYON > PUY MARY CANTAL",
-      "distance": "191.5 KM",
-      "completed": true,
-      "winner": {
-        "rider": "D. MARTINEZ",
-        "team": "EF PRO CYCLING",
-        "points": 6
-      },
-      "yellow": {
-        "rider": "P. ROGLIC",
-        "team": "TEAM JUMBO - VISMA",
-        "points": 2
-      },
-      "green": {
-        "rider": "S. BENNETT",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 1
-      },
-      "polkadot": {
-        "rider": "B. COSNEFROY",
-        "team": "AG2R LA MONDIALE",
-        "points": 1
-      },
-      "white": {
-        "rider": "T. POGACAR",
-        "team": "UAE TEAM EMIRATES",
-        "points": 1
-      },
-      "combativity": {
-        "rider": "M. SCHACHMANN",
-        "team": "BORA - HANSGROHE",
-        "points": 1
-      },
-      "teams": {
-        "team": "EF PRO CYCLING",
-        "points": 1
-      }
-    },
-    {
-      "number": 14,
-      "type": "FLAT",
-      "date": "Sat 09/12/2020",
-      "location": "CLERMONT-FERRAND > LYON",
-      "distance": "194 KM",
-      "completed": true,
-      "winner": {
-        "rider": "S. KRAGH ANDERSEN",
-        "team": "TEAM SUNWEB",
-        "points": 6
-      },
-      "yellow": {
-        "rider": "P. ROGLIC",
-        "team": "TEAM JUMBO - VISMA",
-        "points": 2
-      },
-      "green": {
-        "rider": "S. BENNETT",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 1
-      },
-      "polkadot": {
-        "rider": "B. COSNEFROY",
-        "team": "AG2R LA MONDIALE",
-        "points": 1
-      },
-      "white": {
-        "rider": "T. POGACAR",
-        "team": "UAE TEAM EMIRATES",
-        "points": 1
-      },
-      "combativity": {
-        "rider": "S. KÜNG",
-        "team": "GROUPAMA - FDJ",
-        "points": 1
-      },
-      "teams": {
-        "team": "EF PRO CYCLING",
-        "points": 1
-      }
-    },
-    {
-      "number": 15,
-      "type": "MOUNTAIN",
-      "date": "Sun 09/13/2020",
-      "location": "LYON > GRAND COLOMBIER",
-      "distance": "174.5 KM",
-      "completed": true,
-      "winner": {
-        "rider": "T. POGACAR",
-        "team": "UAE TEAM EMIRATES",
-        "points": 4
-      },
-      "yellow": {
-        "rider": "P. ROGLIC",
-        "team": "TEAM JUMBO - VISMA",
-        "points": 2
-      },
-      "green": {
-        "rider": "S. BENNETT",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 1
-      },
-      "polkadot": {
-        "rider": "B. COSNEFROY",
-        "team": "AG2R LA MONDIALE",
-        "points": 1
-      },
-      "white": {
-        "rider": "T. POGACAR",
-        "team": "UAE TEAM EMIRATES",
-        "points": 1
-      },
-      "combativity": {
-        "rider": "P. ROLLAND",
-        "team": "B&B HOTELS - VITAL CONCEPT P / B KTM",
-        "points": 1
-      },
-      "teams": {
-        "team": "MOVISTAR TEAM",
-        "points": 1
-      }
-    },
-    {
-      "number": 16,
-      "type": "MOUNTAIN",
-      "date": "Tue 09/15/2020",
-      "location": "LA TOUR-DU-PIN > VILLARD-DE-LANS",
-      "distance": "164 KM",
-      "completed": true,
-      "winner": {
-        "rider": "L. KÄMNA",
-        "team": "BORA - HANSGROHE",
-        "points": 6
-      },
-      "yellow": {
-        "rider": "P. ROGLIC",
-        "team": "TEAM JUMBO - VISMA",
-        "points": 2
-      },
-      "green": {
-        "rider": "S. BENNETT",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 1
-      },
-      "polkadot": {
-        "rider": "B. COSNEFROY",
-        "team": "AG2R LA MONDIALE",
-        "points": 1
-      },
-      "white": {
-        "rider": "T. POGACAR",
-        "team": "UAE TEAM EMIRATES",
-        "points": 1
-      },
-      "combativity": {
-        "rider": "R. CARAPAZ",
-        "team": "INEOS GRENADIERS",
-        "points": 1
-      },
-      "teams": {
-        "team": "MOVISTAR TEAM",
-        "points": 1
-      }
-    },
-    {
-      "number": 17,
-      "type": "MOUNTAIN",
-      "date": "Wed 09/16/2020",
-      "location": "GRENOBLE > MÉRIBEL COL DE LA LOZE",
-      "distance": "170 KM",
-      "completed": true,
-      "winner": {
-        "rider": "M. LOPEZ",
-        "team": "ASTANA PRO TEAM",
-        "points": 6
-      },
-      "yellow": {
-        "rider": "P. ROGLIC",
-        "team": "TEAM JUMBO - VISMA",
-        "points": 2
-      },
-      "green": {
-        "rider": "S. BENNETT",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 1
-      },
-      "polkadot": {
-        "rider": "T. POGACAR",
-        "team": "UAE TEAM EMIRATES",
-        "points": 1
-      },
-      "white": {
-        "rider": "E. MAS",
-        "team": "MOVISTAR TEAM",
-        "points": 1
-      },
-      "combativity": {
-        "rider": "J. ALAPHILIPPE",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 1
-      },
-      "teams": {
-        "team": "MOVISTAR TEAM",
-        "points": 1
-      }
-    },
-    {
-      "number": 18,
-      "type": "MOUNTAIN",
-      "date": "Thu 09/17/2020",
-      "location": "MÉRIBEL > LA ROCHE-SUR-FORON",
-      "distance": "175 KM",
-      "completed": true,
-      "winner": {
-        "rider": "M. KWIATKOWSKI",
-        "team": "INEOS GRENADIERS",
-        "points": 6
-      },
-      "yellow": {
-        "rider": "P. ROGLIC",
-        "team": "TEAM JUMBO - VISMA",
-        "points": 2
-      },
-      "green": {
-        "rider": "S. BENNETT",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 1
-      },
-      "polkadot": {
-        "rider": "R. CARAPAZ",
-        "team": "INEOS GRENADIERS",
-        "points": 1
-      },
-      "white": {
-        "rider": "T. POGACAR",
-        "team": "UAE TEAM EMIRATES",
-        "points": 1
-      },
-      "combativity": {
-        "rider": "M. HIRSCHI",
-        "team": "TEAM SUNWEB",
-        "points": 1
-      },
-      "teams": {
-        "team": "MOVISTAR TEAM",
-        "points": 1
-      }
-    },
-    {
-      "number": 19,
-      "type": "FLAT",
-      "date": "Fri 09/18/2020",
-      "location": "BOURG-EN-BRESSE > CHAMPAGNOLE",
-      "distance": "166.5 KM",
-      "completed": true,
-      "winner": {
-        "rider": "S. KRAGH ANDERSEN",
-        "team": "TEAM SUNWEB",
-        "points": 3
-      },
-      "yellow": {
-        "rider": "P. ROGLIC",
-        "team": "TEAM JUMBO - VISMA",
-        "points": 2
-      },
-      "green": {
-        "rider": "S. BENNETT",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 1
-      },
-      "polkadot": {
-        "rider": "R. CARAPAZ",
-        "team": "INEOS GRENADIERS",
-        "points": 1
-      },
-      "white": {
-        "rider": "T. POGACAR",
-        "team": "UAE TEAM EMIRATES",
-        "points": 1
-      },
-      "combativity": {
-        "rider": "R. CAVAGNA",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 1
-      },
-      "teams": {
-        "team": "MOVISTAR TEAM",
-        "points": 1
-      }
-    },
-    {
-      "number": 20,
-      "type": "INDIVIDUAL TIME-TRIAL",
-      "date": "Sat 09/19/2020",
-      "location": "LURE > LA PLANCHE DES BELLES FILLES",
-      "distance": "36.2 KM",
-      "completed": true,
-      "winner": {
-        "rider": "T. POGACAR",
-        "team": "UAE TEAM EMIRATES",
-        "points": 4
-      },
-      "yellow": {
-        "rider": "T. POGACAR",
-        "team": "UAE TEAM EMIRATES",
-        "points": 2
-      },
-      "green": {
-        "rider": "S. BENNETT",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 1
-      },
-      "polkadot": {
-        "rider": "R. CARAPAZ",
-        "team": "INEOS GRENADIERS",
-        "points": 1
-      },
-      "white": {
-        "rider": "E. MAS",
-        "team": "MOVISTAR TEAM",
-        "points": 1
-      },
-      "combativity": {
-        "rider": "",
-        "team": "",
-        "points": 1
-      },
-      "teams": {
-        "team": "MOVISTAR TEAM",
-        "points": 1
-      }
-    },
-    {
-      "number": 21,
-      "type": "FLAT",
-      "date": "Sun 09/20/2020",
-      "location": "MANTES-LA-JOLIE > PARIS CHAMPS-ÉLYSÉES",
-      "distance": "122 KM",
-      "completed": true,
-      "winner": {
-        "rider": "S. BENNETT",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 6
-      },
-      "yellow": {
-        "rider": "T. POGACAR",
-        "team": "UAE TEAM EMIRATES",
-        "points": 25
-      },
-      "green": {
-        "rider": "S. BENNETT",
-        "team": "DECEUNINCK - QUICK - STEP",
-        "points": 10
-      },
-      "polkadot": {
-        "rider": "T. POGACAR",
-        "team": "UAE TEAM EMIRATES",
-        "points": 10
-      },
-      "white": {
-        "rider": "T. POGACAR",
-        "team": "UAE TEAM EMIRATES",
-        "points": 10
-      },
-      "combativity": {
-        "rider": "M. HIRSCHI",
-        "team": "TEAM SUNWEB",
-        "points": 10
-      },
-      "teams": {
-        "team": "MOVISTAR TEAM",
-        "points": 10
-      }
-    }
-  ]
+  }
 }
