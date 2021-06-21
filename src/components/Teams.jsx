@@ -3,7 +3,8 @@ import useGlobal from '../store';
 
 function Teams({ edition }) {
   const [state, actions] = useGlobal();
-  const { teams } = state;
+  const { editions } = state;
+  const { teams } = editions[edition];
   const { setActiveTeam } = actions;
   function handleClick(team) {
     setActiveTeam(team);
