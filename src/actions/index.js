@@ -1,18 +1,18 @@
 import stageHonors from '../utils/stageHonors';
 import _includes from 'lodash/includes';
+import _find from 'lodash/find';
 
 const honors = stageHonors.map((h) => (h.key));
 
-export const setActiveManager = (store, manager) => {
-  const managers = store.state.managers.map((item) => (
+export const setActiveManager = (store, manager, edition) => {
+  const current = store.state.editions[edition];
+  const managers = current.managers.map((item) => (
     item.name === manager.name ?
       {...item, active: true} :
       {...item, active: false}
   ));
-  store.setState({ managers });
-
-  // log global state
-  console.log(store.state);
+  current.managers = managers;
+  store.setState({ edition: current });
 }
 
 export const filterStageHonors = (store, manager) => {
@@ -34,22 +34,23 @@ export const filterStageHonors = (store, manager) => {
   store.setState({ stages });
 }
 
-export const setActiveTeam = (store, team) => {
+export const setActiveTeam = (store, name, edition) => {
+  const current = store.state.editions[edition];
+  const team = _find(current.teams, (team) => { return team.name === name});
   if (team.picked) {
     return;
   }
-  const teams = store.state.teams.map((item) => (
+  const teams = current.teams.map((item) => (
     item.name === team.name ? {...item, picked: true} : item
   ));
-  const managers = store.state.managers.map((item) => (
+  const managers = current.managers.map((item) => (
     item.active ?
       {...item, teams: [...item.teams, {name: team.name}]} :
       item
   ));
-  store.setState({ teams, managers });
-  
-  // log global state
-  console.log(store.state);
+  current.teams = teams;
+  current.managers = managers;
+  store.setState({ edition: current });
 }
 
 export const setReleasedTeam = (store, team, manager) => {

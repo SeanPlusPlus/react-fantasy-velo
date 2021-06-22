@@ -7,7 +7,7 @@ function Teams({ edition }) {
   const { teams } = editions[edition];
   const { setActiveTeam } = actions;
   function handleClick(team) {
-    setActiveTeam(team);
+    setActiveTeam(team.name, edition);
   }
   return (
     <div className="teams">

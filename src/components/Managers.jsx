@@ -21,7 +21,7 @@ function Managers({ edition }) {
       filterStageHonors(manager);
       return;
     }
-    setActiveManager(manager);
+    setActiveManager(manager, edition);
   }
   function handleTeamClick(team, manager) {
     if (activeDraft) {
