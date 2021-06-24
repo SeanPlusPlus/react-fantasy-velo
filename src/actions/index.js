@@ -50,7 +50,11 @@ export const setActiveTeam = (store, name, edition) => {
   ));
   current.teams = teams;
   current.managers = managers;
+
   store.setState({ edition: current });
+
+  // log global state
+  console.log('*', store.state);
 }
 
 export const setReleasedTeam = (store, team, manager) => {
