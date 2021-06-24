@@ -1079,27 +1079,27 @@
       ],
       "teams": [
         {
-          "name": "AG2R LA MONDIALE",
+          "name": "AG2R CITROEN TEAM",
           "picked": false
         },
         {
-          "name": "ASTANA PRO TEAM",
+          "name": "ALPECIN - FENIX",
           "picked": false
         },
         {
-          "name": "B&B HOTELS - VITAL CONCEPT P / B KTM",
+          "name": "ASTANA - PREMIER TECH",
           "picked": false
         },
         {
-          "name": "BAHRAIN - MCLAREN",
+          "name": "B&B HOTELS  P/B KTM",
+          "picked": false
+        },
+        {
+          "name": "BAHRAIN VICTORIOUS",
           "picked": false
         },
         {
           "name": "BORA - HANSGROHE",
-          "picked": false
-        },
-        {
-          "name": "CCC TEAM",
           "picked": false
         },
         {
@@ -1111,7 +1111,7 @@
           "picked": false
         },
         {
-          "name": "EF PRO CYCLING",
+          "name": "EF EDUCATION - NIPPO",
           "picked": false
         },
         {
@@ -1123,7 +1123,15 @@
           "picked": false
         },
         {
+          "name": "INTERMARCHE - WANTY - GOBERT MATERIAUX",
+          "picked": false
+        },
+        {
           "name": "ISRAEL START-UP NATION",
+          "picked": false
+        },
+        {
+          "name": "JUMBO - VISMA",
           "picked": false
         },
         {
@@ -1131,15 +1139,7 @@
           "picked": false
         },
         {
-          "name": "MITCHELTON - SCOTT",
-          "picked": false
-        },
-        {
           "name": "MOVISTAR TEAM",
-          "picked": false
-        },
-        {
-          "name": "NTT PRO CYCLING TEAM",
           "picked": false
         },
         {
@@ -1147,15 +1147,19 @@
           "picked": false
         },
         {
-          "name": "TEAM JUMBO - VISMA",
+          "name": "TEAM BIKEEXCHANGE",
           "picked": false
         },
         {
-          "name": "TEAM SUNWEB",
+          "name": "TEAM DSM",
           "picked": false
         },
         {
-          "name": "TOTAL DIRECT ENERGIE",
+          "name": "TEAM QHUBEKA ASSOS",
+          "picked": false
+        },
+        {
+          "name": "TOTALENERGIES",
           "picked": false
         },
         {
