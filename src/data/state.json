@@ -1245,37 +1245,37 @@
           "location": " BREST > LANDERNEAU",
           "completed": true,
           "winner": {
-            "rider": "",
-            "team": "",
-            "points": 3
+            "rider": "J. ALAPHILIPPE",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 4
           },
           "yellow": {
-            "rider": "",
-            "team": "",
+            "rider": "J. ALAPHILIPPE",
+            "team": "DECEUNINCK - QUICK - STEP",
             "points": 2
           },
           "green": {
-            "rider": "",
-            "team": "",
+            "rider": "M. MATTHEWS",
+            "team": "TEAM BIKEEXCHANGE",
             "points": 1
           },
           "polkadot": {
-            "rider": "",
-            "team": "",
+            "rider": "I. SCHELLING",
+            "team": "BORA - HANSGROHE",
             "points": 1
           },
           "white": {
-            "rider": "",
-            "team": "",
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
             "points": 1
           },
           "combativity": {
-            "rider": "",
-            "team": "",
+            "rider": "I. SCHELLING",
+            "team": "BORA - HANSGROHE",
             "points": 1
           },
           "teams": {
-            "team": "",
+            "team": "JUMBO - VISMA",
             "points": 1
           }
         },
@@ -1283,13 +1283,83 @@
           "number": 2,
           "date": "06/27",
           "distance": "183.5 KM",
-          "location": "PERROS-GUIREC > MÛR-DE-BRETAGNE GUERLÉDAN"
+          "location": "PERROS-GUIREC > MÛR-DE-BRETAGNE GUERLÉDAN",
+          "completed": true,
+          "winner": {
+            "rider": "M. VAN DER POEL",
+            "team": "ALPECIN - FENIX",
+            "points": 6
+          },
+          "yellow": {
+            "rider": "M. VAN DER POEL",
+            "team": "ALPECIN - FENIX",
+            "points": 2
+          },
+          "green": {
+            "rider": "J. ALAPHILIPPE",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "I. SCHELLING",
+            "team": "BORA - HANSGROHE",
+            "points": 1
+          },
+          "white": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "E. THEUNS",
+            "team": "TREK - SEGAFREDO",
+            "points": 1
+          },
+          "teams": {
+            "team": "JUMBO - VISMA",
+            "points": 1
+          }
         },
         {
           "number": 3,
           "date": "06/28",
           "distance": "182.9 KM ",
-          "location": "LORIENT > PONTIVY"
+          "location": "LORIENT > PONTIVY",
+          "completed": false,
+          "winner": {
+            "rider": "T. MERLIER",
+            "team": "ALPECIN - FENIX",
+            "points": 6
+          },
+          "yellow": {
+            "rider": "M. VAN DER POEL",
+            "team": "ALPECIN - FENIX",
+            "points": 2
+          },
+          "green": {
+            "rider": "J. ALAPHILIPPE",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "I. SCHELLING",
+            "team": "BORA - HANSGROHE",
+            "points": 1
+          },
+          "white": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "M. SCHÄR",
+            "team": "AG2R CITROEN TEAM",
+            "points": 1
+          },
+          "teams": {
+            "team": "JUMBO - VISMA",
+            "points": 1
+          }
         },
         {
           "number": 4,

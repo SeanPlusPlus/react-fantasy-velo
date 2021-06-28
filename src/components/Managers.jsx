@@ -10,6 +10,7 @@ function Managers({ edition }) {
   const managers = _orderBy(
     editions[edition].managers.map((m) => getScore(m, stages, teams)), 'score', 'desc'
   );
+  console.log('managers', managers);
   const activeDraft = stages.filter((s) => (s.completed)).length > 0;
   const {
     setActiveManager,
