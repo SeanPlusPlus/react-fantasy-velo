@@ -21,10 +21,10 @@ function Stages({ edition }) {
         Stages
       </h3>
       <ul>
-        {completed.map((stage) => (
+        {completed.map((stage, idx) => (
           <li
             key={stage.number}
-            className="stage"
+            className={`stage idx-${idx}`}
           >
             <div
               className="stage-location"

@@ -1325,7 +1325,7 @@
           "date": "06/28",
           "distance": "182.9 KM ",
           "location": "LORIENT > PONTIVY",
-          "completed": false,
+          "completed": true,
           "winner": {
             "rider": "T. MERLIER",
             "team": "ALPECIN - FENIX",

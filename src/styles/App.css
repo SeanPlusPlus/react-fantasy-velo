@@ -93,6 +93,18 @@ li.manager > .manager-teams > ul > li:hover {
   color: #0062cc;
 }
 
+.stages > ul > li.stage {
+  padding: 15px 15px 0 15px;
+  margin-bottom: 10px;
+}
+
+.stages > ul > li.stage.idx-0 {
+  border: 1px solid #4444;
+  background-color: #fafafa;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
 ul.stage-results {
   padding-left: 25px;
   padding-bottom: 20px;
