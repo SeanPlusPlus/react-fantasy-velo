@@ -29,7 +29,7 @@ function Stages({ edition }) {
             <div
               className="stage-location"
             >
-              {stage.number}. {stage.location}, {stage.distance}, {stage.type}
+              {stage.number}. {stage.location}, {stage.distance}
             </div>
             <ul className="stage-results">
               {stageHonors.map((h) => (
