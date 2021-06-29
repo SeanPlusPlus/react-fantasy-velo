@@ -1365,7 +1365,42 @@
           "number": 4,
           "date": "06/29",
           "distance": "150.4 KM",
-          "location": "REDON > FOUGÈRES"
+          "location": "REDON > FOUGÈRES",
+          "completed": true,
+          "winner": {
+            "rider": "M. CAVENDISH",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 3
+          },
+          "yellow": {
+            "rider": "M. VAN DER POEL",
+            "team": "ALPECIN - FENIX",
+            "points": 2
+          },
+          "green": {
+            "rider": "M. CAVENDISH",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "I. SCHELLING",
+            "team": "BORA - HANSGROHE",
+            "points": 1
+          },
+          "white": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 1
+          },
+          "teams": {
+            "team": "BAHRAIN VICTORIOUS",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "B. VAN MOER",
+            "team": "LOTTO SOUDAL",
+            "points": 1
+          }
         },
         {
           "number": 5,
