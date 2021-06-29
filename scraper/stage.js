@@ -93,5 +93,5 @@ fetch(letour)
     // const json = JSON.stringify(data, null, 2);
     // console.log('json', json);
   
-    // fs.writeFileSync(path, json);
+    fs.writeFileSync(path, json);
   });
