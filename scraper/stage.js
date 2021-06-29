@@ -75,22 +75,21 @@ fetch(letour)
     const state = fs.readFileSync(path);
     const data = JSON.parse(state);
 
-    console.log(stageHonors);
-    console.log(edition);
-    console.log(data.editions[edition]);
+    data.editions[edition].stages.forEach((s) => {
+      if (s.number === stage) {
+        s.completed = true;
+        s.winner = stageHonors.winner;
+        honors.forEach((h) => {
+          s[h] = stageHonors[h];
+        });
+        console.log('✅', s);
+      }
+      return s;
+    });
 
-    // data.stages.forEach((s) => {
-    //   if (s.number === stage) {
-    //     s.completed = true;
-    //     s.winner = stageHonors.winner;
-    //     honors.forEach((h) => {
-    //       s[h] = stageHonors[h];
-    //     });
-    //     console.log('✅', s);
-    //   }
-    //   return s;
-    // });
-
+    // console.log(stageHonors);
+    // console.log(edition);
+    // console.log(data.editions[edition]);
     // const json = JSON.stringify(data, null, 2);
     // console.log('json', json);
   
