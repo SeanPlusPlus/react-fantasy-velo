@@ -13,6 +13,7 @@ const honors = [
 const stageHonors = {};
 const jerseys = [];
 const letour = 'https://www.letour.fr/en/';
+const edition = new Date().getFullYear() + '';
 
 // get bonus points
 const arg = process.argv[2];
@@ -74,18 +75,24 @@ fetch(letour)
     const state = fs.readFileSync(path);
     const data = JSON.parse(state);
 
-    data.stages.forEach((s) => {
-      if (s.number === stage) {
-        s.completed = true;
-        s.winner = stageHonors.winner;
-        honors.forEach((h) => {
-          s[h] = stageHonors[h];
-        });
-        console.log('✅', s);
-      }
-      return s;
-    });
+    console.log(stageHonors);
+    console.log(edition);
+    console.log(data.editions[edition]);
 
-    const json = JSON.stringify(data, null, 2);
-    fs.writeFileSync(path, json);
+    // data.stages.forEach((s) => {
+    //   if (s.number === stage) {
+    //     s.completed = true;
+    //     s.winner = stageHonors.winner;
+    //     honors.forEach((h) => {
+    //       s[h] = stageHonors[h];
+    //     });
+    //     console.log('✅', s);
+    //   }
+    //   return s;
+    // });
+
+    // const json = JSON.stringify(data, null, 2);
+    // console.log('json', json);
+  
+    // fs.writeFileSync(path, json);
   });
