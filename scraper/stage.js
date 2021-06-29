@@ -90,8 +90,6 @@ fetch(letour)
     // console.log(stageHonors);
     // console.log(edition);
     // console.log(data.editions[edition]);
-    // const json = JSON.stringify(data, null, 2);
-    // console.log('json', json);
-  
+    const json = JSON.stringify(data, null, 2); 
     fs.writeFileSync(path, json);
   });
