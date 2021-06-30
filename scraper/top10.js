@@ -59,6 +59,7 @@ fetch(rankings)
       const itg = JSON.parse($(el).attr('data-ajax-stack')).itg
       itg && resources.push(itg);
     });
-    const urls = resources.map((r) => (`${letour}/${r}`))
+    const urls = resources.map((r) => (`${letour}${r}`))
+    console.log(urls);
     getData(urls).then(handleData)
   });
