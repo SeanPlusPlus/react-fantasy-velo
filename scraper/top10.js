@@ -28,6 +28,18 @@ const handleData = (documents) => {
             }
           });
         }
+        const classNameTeam = 'break-line team';
+        if ($(el).attr('class') === classNameTeam) {
+          const children = $(el).children();
+          children.each((index, child) => {
+            const element = $(child)
+            const href = element.attr('href');
+            if (href) {
+              const team = element.text().trim();
+              riders[riders.length - 1].team = team;
+            }
+          });
+        }
         const classNameTime = 'is-alignCenter time';
         if ($(el).attr('class') === classNameTime) {
           if (idx === 6) {
