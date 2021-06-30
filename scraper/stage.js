@@ -80,7 +80,7 @@ fetch(letour)
         s.completed = true;
         s.winner = stageHonors.winner;
         honors.forEach((h) => {
-          s[h] = stageHonors[h];
+          s[h] = stageHonors[h] || {};
         });
         console.log('✅', s);
       }
