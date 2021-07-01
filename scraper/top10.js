@@ -72,6 +72,5 @@ fetch(rankings)
       itg && resources.push(itg);
     });
     const urls = resources.map((r) => (`${letour}${r}`))
-    console.log(urls);
     getData(urls).then(handleData)
   });
