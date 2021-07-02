@@ -1443,7 +1443,42 @@
           "number": 6,
           "date": "07/01",
           "distance": "160.6 KM",
-          "location": "TOURS > CHÂTEAUROUX"
+          "location": "TOURS > CHÂTEAUROUX",
+          "completed": true,
+          "winner": {
+            "rider": "M. CAVENDISH",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 4
+          },
+          "yellow": {
+            "rider": "M. VAN DER POEL",
+            "team": "ALPECIN - FENIX",
+            "points": 2
+          },
+          "green": {
+            "rider": "M. CAVENDISH",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "I. SCHELLING",
+            "team": "BORA - HANSGROHE",
+            "points": 1
+          },
+          "white": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 1
+          },
+          "teams": {
+            "team": "JUMBO - VISMA",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "G. VAN AVERMAET",
+            "team": "AG2R CITROEN TEAM",
+            "points": 1
+          }
         },
         {
           "number": 7,
