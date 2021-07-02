@@ -1484,7 +1484,42 @@
           "number": 7,
           "date": "07/02",
           "distance": "249.1 KM",
-          "location": "VIERZON > LE CREUSOT"
+          "location": "VIERZON > LE CREUSOT",
+          "completed": true,
+          "winner": {
+            "rider": "M. MOHORIC",
+            "team": "BAHRAIN VICTORIOUS",
+            "points": 7
+          },
+          "yellow": {
+            "rider": "M. VAN DER POEL",
+            "team": "ALPECIN - FENIX",
+            "points": 2
+          },
+          "green": {
+            "rider": "M. CAVENDISH",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "M. MOHORIC",
+            "team": "BAHRAIN VICTORIOUS",
+            "points": 1
+          },
+          "white": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 1
+          },
+          "teams": {
+            "team": "JUMBO - VISMA",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "M. MOHORIC",
+            "team": "BAHRAIN VICTORIOUS",
+            "points": 1
+          }
         },
         {
           "number": 8,
