@@ -1566,13 +1566,83 @@
           "number": 9,
           "date": "07/04",
           "distance": "144.9 KM",
-          "location": "CLUSES > TIGNES"
+          "location": "CLUSES > TIGNES",
+          "completed": true,
+          "winner": {
+            "rider": "B. O'CONNOR",
+            "team": "AG2R CITROEN TEAM",
+            "points": 6
+          },
+          "yellow": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 2
+          },
+          "green": {
+            "rider": "M. CAVENDISH",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "N. QUINTANA",
+            "team": "TEAM ARKEA - SAMSIC",
+            "points": 1
+          },
+          "white": {
+            "rider": "J. VINGEGAARD",
+            "team": "JUMBO - VISMA",
+            "points": 1
+          },
+          "teams": {
+            "team": "BAHRAIN VICTORIOUS",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "B. O'CONNOR",
+            "team": "AG2R CITROEN TEAM",
+            "points": 1
+          }
         },
         {
           "number": 10,
           "date": "07/06",
           "distance": "190.7 KM",
-          "location": "ALBERTVILLE > VALENCE"
+          "location": "ALBERTVILLE > VALENCE",
+          "completed": true,
+          "winner": {
+            "rider": "M. CAVENDISH",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 4
+          },
+          "yellow": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 2
+          },
+          "green": {
+            "rider": "M. CAVENDISH",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "N. QUINTANA",
+            "team": "TEAM ARKEA - SAMSIC",
+            "points": 1
+          },
+          "white": {
+            "rider": "J. VINGEGAARD",
+            "team": "JUMBO - VISMA",
+            "points": 1
+          },
+          "teams": {
+            "team": "BAHRAIN VICTORIOUS",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "H. HOULE",
+            "team": "ASTANA - PREMIER TECH",
+            "points": 1
+          }
         },
         {
           "number": 11,
