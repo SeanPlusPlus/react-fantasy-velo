@@ -1689,7 +1689,42 @@
           "number": 12,
           "date": "07/08",
           "distance": "159.4 KM",
-          "location": "SAINT-PAUL-TROIS-CHÂTEAUX > NÎMES"
+          "location": "SAINT-PAUL-TROIS-CHÂTEAUX > NÎMES",
+          "completed": true,
+          "winner": {
+            "rider": "N. POLITT",
+            "team": "BORA - HANSGROHE",
+            "points": 6
+          },
+          "yellow": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 2
+          },
+          "green": {
+            "rider": "M. CAVENDISH",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "N. QUINTANA",
+            "team": "TEAM ARKEA - SAMSIC",
+            "points": 1
+          },
+          "white": {
+            "rider": "J. VINGEGAARD",
+            "team": "JUMBO - VISMA",
+            "points": 1
+          },
+          "teams": {
+            "team": "BAHRAIN VICTORIOUS",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "N. POLITT",
+            "team": "BORA - HANSGROHE",
+            "points": 1
+          }
         },
         {
           "number": 13,
