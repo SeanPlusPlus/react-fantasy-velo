@@ -1648,7 +1648,42 @@
           "number": 11,
           "date": "07/07",
           "distance": "198.9 KM",
-          "location": "SORGUES > MALAUCÈNE"
+          "location": "SORGUES > MALAUCÈNE",
+          "completed": true,
+          "winner": {
+            "rider": "W. VAN AERT",
+            "team": "JUMBO - VISMA",
+            "points": 4
+          },
+          "yellow": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 2
+          },
+          "green": {
+            "rider": "M. CAVENDISH",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "N. QUINTANA",
+            "team": "TEAM ARKEA - SAMSIC",
+            "points": 1
+          },
+          "white": {
+            "rider": "J. VINGEGAARD",
+            "team": "JUMBO - VISMA",
+            "points": 1
+          },
+          "teams": {
+            "team": "BAHRAIN VICTORIOUS",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "K. ELISSONDE",
+            "team": "TREK - SEGAFREDO",
+            "points": 1
+          }
         },
         {
           "number": 12,
