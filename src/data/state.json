@@ -1771,7 +1771,42 @@
           "number": 14,
           "date": "07/10",
           "distance": "183.7 KM",
-          "location": "CARCASSONNE > QUILLAN"
+          "location": "CARCASSONNE > QUILLAN",
+          "completed": true,
+          "winner": {
+            "rider": "B. MOLLEMA",
+            "team": "TREK - SEGAFREDO",
+            "points": 3
+          },
+          "yellow": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 2
+          },
+          "green": {
+            "rider": "M. CAVENDISH",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "M. WOODS",
+            "team": "ISRAEL START-UP NATION",
+            "points": 1
+          },
+          "white": {
+            "rider": "J. VINGEGAARD",
+            "team": "JUMBO - VISMA",
+            "points": 1
+          },
+          "teams": {
+            "team": "BAHRAIN VICTORIOUS",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "B. MOLLEMA",
+            "team": "TREK - SEGAFREDO",
+            "points": 1
+          }
         },
         {
           "number": 15,
