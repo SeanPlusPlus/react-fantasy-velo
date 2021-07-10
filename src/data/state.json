@@ -1730,7 +1730,42 @@
           "number": 13,
           "date": "07/09",
           "distance": "219.9 KM",
-          "location": "NÎMES > CARCASSONNE"
+          "location": "NÎMES > CARCASSONNE",
+          "completed": true,
+          "winner": {
+            "rider": "M. CAVENDISH",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 4
+          },
+          "yellow": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 2
+          },
+          "green": {
+            "rider": "M. CAVENDISH",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "N. QUINTANA",
+            "team": "TEAM ARKEA - SAMSIC",
+            "points": 1
+          },
+          "white": {
+            "rider": "J. VINGEGAARD",
+            "team": "JUMBO - VISMA",
+            "points": 1
+          },
+          "teams": {
+            "team": "BAHRAIN VICTORIOUS",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "Q. PACHER",
+            "team": "B&B HOTELS  P/B KTM",
+            "points": 1
+          }
         },
         {
           "number": 14,
