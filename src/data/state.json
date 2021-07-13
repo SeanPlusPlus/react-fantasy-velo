@@ -1812,7 +1812,42 @@
           "number": 15,
           "date": "07/11",
           "distance": "191.3 KM",
-          "location": "CÉRET > ANDORRE-LA-VIEILLE"
+          "location": "CÉRET > ANDORRE-LA-VIEILLE",
+          "completed": true,
+          "winner": {
+            "rider": "S. KUSS",
+            "team": "JUMBO - VISMA",
+            "points": 6
+          },
+          "yellow": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 2
+          },
+          "green": {
+            "rider": "M. CAVENDISH",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "W. POELS",
+            "team": "BAHRAIN VICTORIOUS",
+            "points": 1
+          },
+          "white": {
+            "rider": "J. VINGEGAARD",
+            "team": "JUMBO - VISMA",
+            "points": 1
+          },
+          "teams": {
+            "team": "BAHRAIN VICTORIOUS",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "W. VAN AERT",
+            "team": "JUMBO - VISMA",
+            "points": 1
+          }
         },
         {
           "number": 16,
