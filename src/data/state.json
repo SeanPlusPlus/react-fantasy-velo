@@ -1853,7 +1853,42 @@
           "number": 16,
           "date": "07/13",
           "distance": "169 KM",
-          "location": "PAS DE LA CASE > SAINT-GAUDENS"
+          "location": "PAS DE LA CASE > SAINT-GAUDENS",
+          "completed": true,
+          "winner": {
+            "rider": "P. KONRAD",
+            "team": "BORA - HANSGROHE",
+            "points": 7
+          },
+          "yellow": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 2
+          },
+          "green": {
+            "rider": "M. CAVENDISH",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "W. POELS",
+            "team": "BAHRAIN VICTORIOUS",
+            "points": 1
+          },
+          "white": {
+            "rider": "J. VINGEGAARD",
+            "team": "JUMBO - VISMA",
+            "points": 1
+          },
+          "teams": {
+            "team": "BAHRAIN VICTORIOUS",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "P. KONRAD",
+            "team": "BORA - HANSGROHE",
+            "points": 1
+          }
         },
         {
           "number": 17,
