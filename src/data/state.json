@@ -1894,7 +1894,42 @@
           "number": 17,
           "date": "07/14",
           "distance": "178.4 KM",
-          "location": "MURET > SAINT-LARY-SOULAN COL DU PORTET"
+          "location": "MURET > SAINT-LARY-SOULAN COL DU PORTET",
+          "completed": true,
+          "winner": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 5
+          },
+          "yellow": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 2
+          },
+          "green": {
+            "rider": "M. CAVENDISH",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "W. POELS",
+            "team": "BAHRAIN VICTORIOUS",
+            "points": 1
+          },
+          "white": {
+            "rider": "J. VINGEGAARD",
+            "team": "JUMBO - VISMA",
+            "points": 1
+          },
+          "teams": {
+            "team": "BAHRAIN VICTORIOUS",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "A. PEREZ",
+            "team": "COFIDIS",
+            "points": 1
+          }
         },
         {
           "number": 18,
