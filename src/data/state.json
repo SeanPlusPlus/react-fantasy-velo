@@ -1935,7 +1935,42 @@
           "number": 18,
           "date": "07/15",
           "distance": "129.7 KM",
-          "location": "PAU > LUZ ARDIDEN"
+          "location": "PAU > LUZ ARDIDEN",
+          "completed": true,
+          "winner": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 5
+          },
+          "yellow": {
+            "rider": "T. POGACAR",
+            "team": "UAE TEAM EMIRATES",
+            "points": 2
+          },
+          "green": {
+            "rider": "M. CAVENDISH",
+            "team": "DECEUNINCK - QUICK - STEP",
+            "points": 1
+          },
+          "polkadot": {
+            "rider": "W. POELS",
+            "team": "BAHRAIN VICTORIOUS",
+            "points": 1
+          },
+          "white": {
+            "rider": "J. VINGEGAARD",
+            "team": "JUMBO - VISMA",
+            "points": 1
+          },
+          "teams": {
+            "team": "BAHRAIN VICTORIOUS",
+            "points": 1
+          },
+          "combativity": {
+            "rider": "D. GAUDU",
+            "team": "GROUPAMA - FDJ",
+            "points": 1
+          }
         },
         {
           "number": 19,
