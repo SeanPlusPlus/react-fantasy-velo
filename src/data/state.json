@@ -1,5 +1,135 @@
 {
   "editions": {
+    "DEMO": {
+      "managers": [
+        {
+          "name": "Kevin",
+          "teams": [],
+          "active": false
+        },
+        {
+          "name": "Sean",
+          "teams": [],
+          "active": false
+        },
+        {
+          "name": "Dave",
+          "teams": [],
+          "active": false
+        }
+      ],
+      "teams": [
+        {
+          "name": "AG2R CITROEN TEAM",
+          "picked": false
+        },
+        {
+          "name": "ALPECIN - FENIX",
+          "picked": false
+        },
+        {
+          "name": "ASTANA - PREMIER TECH",
+          "picked": false
+        },
+        {
+          "name": "B&B HOTELS  P/B KTM",
+          "picked": false
+        },
+        {
+          "name": "BAHRAIN VICTORIOUS",
+          "picked": false
+        },
+        {
+          "name": "BORA - HANSGROHE",
+          "picked": false
+        },
+        {
+          "name": "COFIDIS",
+          "picked": false
+        },
+        {
+          "name": "DECEUNINCK - QUICK - STEP",
+          "picked": false
+        },
+        {
+          "name": "EF EDUCATION - NIPPO",
+          "picked": false
+        },
+        {
+          "name": "GROUPAMA - FDJ",
+          "picked": false
+        },
+        {
+          "name": "INEOS GRENADIERS",
+          "picked": false
+        },
+        {
+          "name": "INTERMARCHE - WANTY - GOBERT MATERIAUX",
+          "picked": false
+        },
+        {
+          "name": "ISRAEL START-UP NATION",
+          "picked": false
+        },
+        {
+          "name": "JUMBO - VISMA",
+          "picked": false
+        },
+        {
+          "name": "LOTTO SOUDAL",
+          "picked": false
+        },
+        {
+          "name": "MOVISTAR TEAM",
+          "picked": false
+        },
+        {
+          "name": "TEAM ARKEA - SAMSIC",
+          "picked": false
+        },
+        {
+          "name": "TEAM BIKEEXCHANGE",
+          "picked": false
+        },
+        {
+          "name": "TEAM DSM",
+          "picked": false
+        },
+        {
+          "name": "TEAM QHUBEKA ASSOS",
+          "picked": false
+        },
+        {
+          "name": "TOTALENERGIES",
+          "picked": false
+        },
+        {
+          "name": "TREK - SEGAFREDO",
+          "picked": false
+        },
+        {
+          "name": "UAE TEAM EMIRATES",
+          "picked": false
+        }
+      ],
+      "stages": [
+        {
+          "number": 1,
+          "type": "",
+          "date": "",
+          "location": "",
+          "distance": "",
+          "completed": false,
+          "winner": {},
+          "yellow": {},
+          "green": {},
+          "polkadot": {},
+          "white": {},
+          "combativity": {},
+          "teams": {}
+        }
+      ]
+    },
     "2020": {
       "managers": [
         {
