@@ -50,6 +50,7 @@ li > .manager-name.active {
 li > .team-name.picked {
   color: #111;
   opacity: 0.5;
+  text-decoration: line-through;
 }
 
 li > .team-name:not(.picked):hover {
